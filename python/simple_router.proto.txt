@@ -1,0 +1,39 @@
+tables {
+  preamble {
+    id: 33581985
+    name: "ipv4_lpm"
+    alias: "ipv4_lpm"
+  }
+  match_fields {
+    id: 1
+    name: "ipv4.dstAddr"
+    bitwidth: 32
+    match_type: LPM
+  }
+  action_refs {
+    id: 16812204
+  }
+  action_refs {
+    id: 16784184: "@default_only()"
+  }
+  size: 1024
+}
+actions {
+  preamble {
+    id: 16784184
+    name: "_drop"
+    alias: "_drop"
+  }
+}
+actions {
+  preamble {
+    id: 16812204
+    name: "set_nhop"
+    alias: "set_nhop"
+  }
+  params {
+    id: 1
+    name: "port"
+    bitwidth: 8
+  }
+}
