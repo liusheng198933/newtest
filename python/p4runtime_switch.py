@@ -23,6 +23,7 @@ from mininet.log import info, error, debug
 
 from p4_mininet import P4Switch, SWITCH_START_TIMEOUT
 from netstat import check_listening_on_port
+from util import name2grpc
 
 class P4RuntimeSwitch(P4Switch):
     "BMv2 switch with gRPC support"
@@ -31,7 +32,7 @@ class P4RuntimeSwitch(P4Switch):
     def __init__(self, name, sw_path = None, json_path = None,
                  grpc_port = None,
                  pcap_dump = False,
-                 log_console = False,
+                 log_console = True,
                  verbose = False,
                  device_id = None,
                  enable_debugger = False,
@@ -43,7 +44,7 @@ class P4RuntimeSwitch(P4Switch):
         pathCheck(sw_path)
 
         print "P4RuntimeSwitch"
-        
+
         if json_path is not None:
             # make sure that the provided JSON file exists
             if not os.path.isfile(json_path):
@@ -77,6 +78,16 @@ class P4RuntimeSwitch(P4Switch):
             P4Switch.device_id += 1
         self.nanomsg = "ipc:///tmp/bm-{}-log.ipc".format(self.device_id)
 
+    def set_device_id(self, id_num):
+        self.device_id = id_num
+
+    def set_grpc_port(self, port_num):
+        self.grpc_port = port_num
+
+    def grpc_reconfigure(self, K):
+        num = name2grpc(K, self.name)
+        self.device_id = num
+        self.grpc_port = num + 50051
 
     def check_switch_started(self, pid):
         for _ in range(SWITCH_START_TIMEOUT * 2):
@@ -87,13 +98,19 @@ class P4RuntimeSwitch(P4Switch):
             sleep(0.5)
 
     def start(self, controllers):
+        #print "switch start"
+        #print self.name
+        #print "grpc_port:" + str(self.grpc_port)
+        #print "device_id:" + str(self.device_id)
         info("Starting P4 switch {}.\n".format(self.name))
+        logfile = "/home/shengliu/Workspace/log/p4s.{}.log".format(self.name)
         args = [self.sw_path]
         for port, intf in self.intfs.items():
             if not intf.IP():
                 args.extend(['-i', str(port) + "@" + intf.name])
         if self.pcap_dump:
-            args.append("--pcap")
+            pcapfile = "/home/shengliu/Workspace/pcap/"
+            args.append("--pcap " + pcapfile)
         if self.nanomsg:
             args.extend(['--nanolog', self.nanomsg])
         args.extend(['--device-id', str(self.device_id)])
@@ -105,13 +122,15 @@ class P4RuntimeSwitch(P4Switch):
         if self.enable_debugger:
             args.append("--debugger")
         if self.log_console:
-            args.append("--log-console")
+            args.append("--log-file " + logfile)
+            args.append("--log-level error --log-flush")
         if self.grpc_port:
             args.append("-- --grpc-server-addr 0.0.0.0:" + str(self.grpc_port))
         cmd = ' '.join(args)
+        #print cmd
         info(cmd + "\n")
 
-        logfile = "/tmp/p4s.{}.log".format(self.name)
+
         pid = None
         with tempfile.NamedTemporaryFile() as f:
             self.cmd(cmd + ' >' + logfile + ' 2>&1 & echo $! >> ' + f.name)

@@ -1,0 +1,4892 @@
+Transmitting packet from 4 sent to 1
+time: 39448672
+Transmitting packet from 4 sent to 1
+time: 198
+Transmitting packet from 3 sent to 1
+time: 39449056
+Transmitting packet from 3 sent to 1
+time: 1173
+Transmitting packet from 4 sent to 1
+time: 1692
+Transmitting packet from 4 sent to 1
+time: 25
+Transmitting packet from 4 sent to 1
+time: 446
+Transmitting packet from 3 sent to 1
+time: 18
+Transmitting packet from 3 sent to 1
+time: 19
+Transmitting packet from 3 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 914
+Transmitting packet from 3 sent to 1
+time: 474
+Transmitting packet from 4 sent to 1
+time: 511
+Transmitting packet from 3 sent to 1
+time: 607
+Transmitting packet from 4 sent to 1
+time: 529
+Transmitting packet from 3 sent to 1
+time: 1625
+Transmitting packet from 4 sent to 1
+time: 660
+Transmitting packet from 3 sent to 1
+time: 693
+Transmitting packet from 4 sent to 1
+time: 2471
+Transmitting packet from 3 sent to 1
+time: 2526
+Transmitting packet from 4 sent to 1
+time: 754
+Transmitting packet from 3 sent to 1
+time: 716
+Transmitting packet from 4 sent to 1
+time: 838
+Transmitting packet from 3 sent to 1
+time: 827
+Transmitting packet from 4 sent to 1
+time: 817
+Transmitting packet from 3 sent to 1
+time: 850
+Transmitting packet from 4 sent to 1
+time: 849
+Transmitting packet from 3 sent to 1
+time: 1368
+Transmitting packet from 4 sent to 1
+time: 543
+Transmitting packet from 3 sent to 1
+time: 384
+Transmitting packet from 4 sent to 1
+time: 566
+Transmitting packet from 3 sent to 1
+time: 548
+Transmitting packet from 4 sent to 1
+time: 816
+Transmitting packet from 3 sent to 1
+time: 828
+Transmitting packet from 4 sent to 1
+time: 886
+Transmitting packet from 3 sent to 1
+time: 899
+Transmitting packet from 4 sent to 1
+time: 914
+Transmitting packet from 3 sent to 1
+time: 910
+Transmitting packet from 4 sent to 1
+time: 693
+Transmitting packet from 3 sent to 1
+time: 1214
+Transmitting packet from 4 sent to 1
+time: 891
+Transmitting packet from 3 sent to 1
+time: 564
+Transmitting packet from 4 sent to 1
+time: 769
+Transmitting packet from 4 sent to 1
+time: 839
+Transmitting packet from 3 sent to 1
+time: 22
+Transmitting packet from 3 sent to 1
+time: 18
+Transmitting packet from 4 sent to 1
+time: 1076
+Transmitting packet from 3 sent to 1
+time: 798
+Transmitting packet from 4 sent to 1
+time: 821
+Transmitting packet from 3 sent to 1
+time: 845
+Transmitting packet from 4 sent to 1
+time: 796
+Transmitting packet from 3 sent to 1
+time: 724
+Transmitting packet from 4 sent to 1
+time: 806
+Transmitting packet from 3 sent to 1
+time: 812
+Transmitting packet from 4 sent to 1
+time: 864
+Transmitting packet from 3 sent to 1
+time: 818
+Transmitting packet from 4 sent to 1
+time: 1062
+Transmitting packet from 3 sent to 1
+time: 1144
+Transmitting packet from 4 sent to 1
+time: 920
+Transmitting packet from 4 sent to 1
+time: 971
+Transmitting packet from 3 sent to 1
+time: 22
+Transmitting packet from 3 sent to 1
+time: 22
+Transmitting packet from 4 sent to 1
+time: 967
+Transmitting packet from 3 sent to 1
+time: 390
+Transmitting packet from 4 sent to 1
+time: 1008
+Transmitting packet from 3 sent to 1
+time: 1058
+Transmitting packet from 4 sent to 1
+time: 1011
+Transmitting packet from 3 sent to 1
+time: 1038
+Transmitting packet from 4 sent to 1
+time: 973
+Transmitting packet from 3 sent to 1
+time: 888
+Transmitting packet from 4 sent to 1
+time: 977
+Transmitting packet from 3 sent to 1
+time: 987
+Transmitting packet from 4 sent to 1
+time: 1026
+Transmitting packet from 3 sent to 1
+time: 1042
+Transmitting packet from 4 sent to 1
+time: 1326
+Transmitting packet from 4 sent to 1
+time: 963
+Transmitting packet from 3 sent to 1
+time: 2435
+Transmitting packet from 3 sent to 1
+time: 22
+Transmitting packet from 4 sent to 1
+time: 1043
+Transmitting packet from 3 sent to 1
+time: 854
+Transmitting packet from 4 sent to 1
+time: 1014
+Transmitting packet from 3 sent to 1
+time: 1024
+Transmitting packet from 4 sent to 1
+time: 1008
+Transmitting packet from 3 sent to 1
+time: 991
+Transmitting packet from 4 sent to 1
+time: 1042
+Transmitting packet from 3 sent to 1
+time: 1122
+Transmitting packet from 4 sent to 1
+time: 1026
+Transmitting packet from 3 sent to 1
+time: 980
+Transmitting packet from 4 sent to 1
+time: 981
+Transmitting packet from 4 sent to 1
+time: 999
+Transmitting packet from 3 sent to 1
+time: 1880
+Transmitting packet from 4 sent to 1
+time: 1034
+Transmitting packet from 3 sent to 1
+time: 20
+Transmitting packet from 3 sent to 1
+time: 92
+Transmitting packet from 4 sent to 1
+time: 1019
+Transmitting packet from 3 sent to 1
+time: 931
+Transmitting packet from 4 sent to 1
+time: 1011
+Transmitting packet from 3 sent to 1
+time: 1017
+Transmitting packet from 4 sent to 1
+time: 1007
+Transmitting packet from 3 sent to 1
+time: 1081
+Transmitting packet from 4 sent to 1
+time: 1116
+Transmitting packet from 3 sent to 1
+time: 1057
+Transmitting packet from 4 sent to 1
+time: 1223
+Transmitting packet from 4 sent to 1
+time: 1004
+Transmitting packet from 3 sent to 1
+time: 2439
+Transmitting packet from 4 sent to 1
+time: 1025
+Transmitting packet from 3 sent to 1
+time: 29
+Transmitting packet from 4 sent to 1
+time: 1006
+Transmitting packet from 3 sent to 1
+time: 19
+Transmitting packet from 3 sent to 1
+time: 185
+Transmitting packet from 4 sent to 1
+time: 1020
+Transmitting packet from 3 sent to 1
+time: 1034
+Transmitting packet from 4 sent to 1
+time: 1044
+Transmitting packet from 3 sent to 1
+time: 1043
+Transmitting packet from 4 sent to 1
+time: 1022
+Transmitting packet from 3 sent to 1
+time: 1130
+Transmitting packet from 4 sent to 1
+time: 1058
+Transmitting packet from 3 sent to 1
+time: 951
+Transmitting packet from 4 sent to 1
+time: 1044
+Transmitting packet from 3 sent to 1
+time: 1211
+Transmitting packet from 4 sent to 1
+time: 1030
+Transmitting packet from 4 sent to 1
+time: 1065
+Transmitting packet from 3 sent to 1
+time: 27
+Transmitting packet from 3 sent to 1
+time: 19
+Transmitting packet from 4 sent to 1
+time: 1023
+Transmitting packet from 3 sent to 1
+time: 513
+Transmitting packet from 4 sent to 1
+time: 1036
+Transmitting packet from 3 sent to 1
+time: 1038
+Transmitting packet from 4 sent to 1
+time: 995
+Transmitting packet from 3 sent to 1
+time: 986
+Transmitting packet from 4 sent to 1
+time: 1267
+Transmitting packet from 3 sent to 1
+time: 1263
+Transmitting packet from 4 sent to 1
+time: 1025
+Transmitting packet from 3 sent to 1
+time: 1050
+Transmitting packet from 4 sent to 1
+time: 1014
+Transmitting packet from 3 sent to 1
+time: 936
+Transmitting packet from 4 sent to 1
+time: 2093
+Transmitting packet from 4 sent to 1
+time: 29
+Transmitting packet from 3 sent to 1
+time: 5993
+Transmitting packet from 4 sent to 1
+time: 21
+Transmitting packet from 3 sent to 1
+Transmitting packet from 4 sent to 1
+time: 22
+time: 402
+Transmitting packet from 3 sent to 1
+time: 130
+Transmitting packet from 4 sent to 1
+time: 19
+Transmitting packet from 3 sent to 1
+time: 152
+Transmitting packet from 4 sent to 1
+time: 17
+Transmitting packet from 3 sent to 1
+time: 133
+Transmitting packet from 3 sent to 1
+time: 100
+Transmitting packet from 4 sent to 1
+time: 536
+Transmitting packet from 3 sent to 1
+time: 509
+Transmitting packet from 4 sent to 1
+time: 1042
+Transmitting packet from 3 sent to 1
+time: 1067
+Transmitting packet from 4 sent to 1
+time: 1062
+Transmitting packet from 4 sent to 1
+time: 1025
+Transmitting packet from 4 sent to 1
+time: 1074
+Transmitting packet from 3 sent to 1
+time: 4202
+Transmitting packet from 3 sent to 1
+time: 27
+Transmitting packet from 3 sent to 1
+time: 19
+Transmitting packet from 4 sent to 1
+time: 1378
+Transmitting packet from 3 sent to 1
+time: 302
+Transmitting packet from 4 sent to 1
+time: 1016
+Transmitting packet from 3 sent to 1
+time: 1025
+Transmitting packet from 4 sent to 1
+time: 1018
+Transmitting packet from 3 sent to 1
+time: 1085
+Transmitting packet from 4 sent to 1
+time: 853
+Transmitting packet from 3 sent to 1
+time: 846
+Transmitting packet from 4 sent to 1
+time: 921
+Transmitting packet from 3 sent to 1
+time: 1076
+Transmitting packet from 4 sent to 1
+time: 1081
+Transmitting packet from 3 sent to 1
+time: 926
+Transmitting packet from 4 sent to 1
+time: 1029
+Transmitting packet from 4 sent to 1
+time: 1237
+Transmitting packet from 3 sent to 1
+time: 2129
+Transmitting packet from 3 sent to 1
+time: 15
+Transmitting packet from 4 sent to 1
+time: 865
+Transmitting packet from 3 sent to 1
+time: 856
+Transmitting packet from 4 sent to 1
+time: 1020
+Transmitting packet from 3 sent to 1
+time: 1037
+Transmitting packet from 4 sent to 1
+time: 1006
+Transmitting packet from 3 sent to 1
+time: 1014
+Transmitting packet from 4 sent to 1
+time: 1006
+Transmitting packet from 3 sent to 1
+time: 974
+Transmitting packet from 4 sent to 1
+time: 987
+Transmitting packet from 3 sent to 1
+time: 1004
+Transmitting packet from 4 sent to 1
+time: 992
+Transmitting packet from 3 sent to 1
+time: 995
+Transmitting packet from 4 sent to 1
+time: 1249
+Transmitting packet from 3 sent to 1
+time: 1279
+Transmitting packet from 4 sent to 1
+time: 913
+Transmitting packet from 3 sent to 1
+time: 907
+Transmitting packet from 4 sent to 1
+time: 941
+Transmitting packet from 3 sent to 1
+time: 940
+Transmitting packet from 4 sent to 1
+time: 1003
+Transmitting packet from 3 sent to 1
+time: 1031
+Transmitting packet from 4 sent to 1
+time: 1011
+Transmitting packet from 3 sent to 1
+time: 978
+Transmitting packet from 4 sent to 1
+time: 998
+Transmitting packet from 3 sent to 1
+time: 1018
+Transmitting packet from 4 sent to 1
+time: 924
+Transmitting packet from 3 sent to 1
+time: 1477
+Transmitting packet from 1 sent to 2
+time: 38411168
+Transmitting packet from 1 sent to 2
+time: 393
+Transmitting packet from 1 sent to 2
+time: 13
+Transmitting packet from 1 sent to 2
+time: 11
+Transmitting packet from 1 sent to 2
+time: 10
+Transmitting packet from 1 sent to 2
+time: 10
+Transmitting packet from 1 sent to 2
+time: 443
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 3
+time: 38408016
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 4
+time: 38405036
+Transmitting packet from 1 sent to 3
+time: 11
+Transmitting packet from 1 sent to 3
+time: 10
+Transmitting packet from 1 sent to 2
+time: 20
+Transmitting packet from 1 sent to 4
+time: 619
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 4
+time: 16
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 4
+time: 15
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 3
+time: 986
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 3
+time: 10
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 4
+time: 829
+Transmitting packet from 1 sent to 2
+time: 1093
+Transmitting packet from 1 sent to 4
+time: 17
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 91
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 3
+time: 1258
+Transmitting packet from 1 sent to 2
+time: 441
+Transmitting packet from 1 sent to 3
+time: 20
+Transmitting packet from 1 sent to 2
+time: 18
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 2
+time: 13
+Transmitting packet from 1 sent to 4
+time: 934
+Transmitting packet from 1 sent to 2
+time: 72
+Transmitting packet from 1 sent to 4
+time: 17
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 2
+time: 11
+Transmitting packet from 1 sent to 2
+time: 13
+Transmitting packet from 1 sent to 3
+time: 1037
+Transmitting packet from 1 sent to 3
+time: 11
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 3
+time: 432
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 4
+time: 1430
+Transmitting packet from 1 sent to 3
+time: 11
+Transmitting packet from 1 sent to 4
+time: 11
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 4
+time: 11
+Transmitting packet from 1 sent to 4
+time: 355
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 4
+time: 9
+Transmitting packet from 1 sent to 3
+time: 747
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 1 sent to 3
+Transmitting packet from 1 sent to 4
+time: 15
+time: 13
+Transmitting packet from 1 sent to 4
+time: 130
+Transmitting packet from 1 sent to 4
+time: 10
+Transmitting packet from 1 sent to 2
+time: 3299
+Transmitting packet from 1 sent to 2
+time: 31
+Transmitting packet from 1 sent to 3
+time: 1068
+Transmitting packet from 1 sent to 4
+time: 916
+Transmitting packet from 1 sent to 3
+time: 244
+Transmitting packet from 1 sent to 2
+time: 682
+Transmitting packet from 1 sent to 4
+time: 257
+Transmitting packet from 1 sent to 2
+time: 14
+Transmitting packet from 1 sent to 3
+time: 506
+Transmitting packet from 1 sent to 3
+time: 28
+Transmitting packet from 1 sent to 4
+time: 519
+Transmitting packet from 1 sent to 2
+time: 458
+Transmitting packet from 1 sent to 4
+time: 42
+Transmitting packet from 1 sent to 2
+Transmitting packet from 1 sent to 3
+time: 450
+time: 285
+Transmitting packet from 1 sent to 2
+time: 138
+Transmitting packet from 1 sent to 3
+time: 169
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 4
+time: 642
+Transmitting packet from 1 sent to 4
+time: 8
+Transmitting packet from 1 sent to 3
+time: 298
+Transmitting packet from 1 sent to 3
+time: 100
+Transmitting packet from 1 sent to 2
+time: 332
+Transmitting packet from 1 sent to 4
+time: 297
+Transmitting packet from 1 sent to 2
+time: 171
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 3
+time: 321
+Transmitting packet from 1 sent to 2
+time: 159
+Transmitting packet from 1 sent to 3
+time: 36
+Transmitting packet from 1 sent to 2
+time: 176
+Transmitting packet from 1 sent to 4
+time: 483
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 4
+time: 86
+Transmitting packet from 1 sent to 4
+time: 9
+Transmitting packet from 1 sent to 3
+time: 204
+Transmitting packet from 1 sent to 2
+time: 364
+Transmitting packet from 1 sent to 4
+time: 243
+Transmitting packet from 1 sent to 3
+time: 321
+Transmitting packet from 1 sent to 2
+time: 266
+Transmitting packet from 1 sent to 4
+time: 185
+Transmitting packet from 1 sent to 3
+time: 234
+Transmitting packet from 1 sent to 2
+time: 336
+Transmitting packet from 1 sent to 4
+time: 230
+Transmitting packet from 1 sent to 3
+Transmitting packet from 1 sent to 2
+time: 272
+time: 375
+Transmitting packet from 1 sent to 4
+time: 412
+Transmitting packet from 1 sent to 3
+time: 190
+Transmitting packet from 1 sent to 2
+time: 239
+Transmitting packet from 1 sent to 4
+Transmitting packet from 1 sent to 3
+time: 260
+time: 261
+Transmitting packet from 1 sent to 2
+time: 301
+Transmitting packet from 1 sent to 2
+time: 48
+Transmitting packet from 1 sent to 4
+time: 179
+Transmitting packet from 1 sent to 3
+time: 406
+Transmitting packet from 1 sent to 3
+time: 58
+Transmitting packet from 1 sent to 4
+time: 374
+Transmitting packet from 1 sent to 2
+time: 588
+Transmitting packet from 1 sent to 4
+time: 42
+Transmitting packet from 1 sent to 2
+time: 120
+Transmitting packet from 1 sent to 3
+time: 422
+Transmitting packet from 1 sent to 2
+time: 182
+Transmitting packet from 1 sent to 3
+time: 195
+Transmitting packet from 1 sent to 4
+time: 496
+Transmitting packet from 1 sent to 2
+time: 181
+Transmitting packet from 1 sent to 3
+time: 185
+Transmitting packet from 1 sent to 4
+time: 183
+Transmitting packet from 1 sent to 2
+time: 179
+Transmitting packet from 1 sent to 3
+time: 183
+Transmitting packet from 1 sent to 4
+time: 181
+Transmitting packet from 1 sent to 3
+time: 126
+Transmitting packet from 1 sent to 2
+time: 233
+Transmitting packet from 1 sent to 4
+time: 182
+Transmitting packet from 1 sent to 4
+time: 74
+Transmitting packet from 1 sent to 2
+time: 169
+Transmitting packet from 1 sent to 3
+time: 302
+Transmitting packet from 1 sent to 2
+time: 167
+Transmitting packet from 1 sent to 3
+time: 143
+Transmitting packet from 1 sent to 4
+time: 406
+Transmitting packet from 1 sent to 2
+time: 137
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 3
+time: 318
+Transmitting packet from 1 sent to 3
+time: 78
+Transmitting packet from 1 sent to 4
+Transmitting packet from 1 sent to 2
+time: 415
+time: 252
+Transmitting packet from 1 sent to 4
+time: 66
+Transmitting packet from 1 sent to 3
+time: 353
+Transmitting packet from 1 sent to 2
+time: 363
+Transmitting packet from 1 sent to 4
+time: 342
+Transmitting packet from 1 sent to 2
+Transmitting packet from 1 sent to 3
+time: 373
+time: 270
+Transmitting packet from 1 sent to 4
+time: 411
+Transmitting packet from 1 sent to 3
+time: 192
+Transmitting packet from 1 sent to 2
+time: 241
+Transmitting packet from 1 sent to 4
+time: 225
+Transmitting packet from 1 sent to 3
+time: 280
+Transmitting packet from 1 sent to 2
+time: 433
+Transmitting packet from 1 sent to 4
+time: 292
+Transmitting packet from 1 sent to 3
+time: 391
+Transmitting packet from 1 sent to 2
+time: 306
+Transmitting packet from 1 sent to 4
+Transmitting packet from 1 sent to 3
+time: 206
+time: 413
+Transmitting packet from 1 sent to 2
+time: 327
+Transmitting packet from 1 sent to 4
+time: 183
+Transmitting packet from 1 sent to 3
+time: 346
+Transmitting packet from 1 sent to 2
+time: 274
+Transmitting packet from 1 sent to 4
+time: 352
+Transmitting packet from 1 sent to 3
+time: 266
+Transmitting packet from 1 sent to 2
+time: 273
+Transmitting packet from 1 sent to 4
+time: 242
+Transmitting packet from 1 sent to 3
+time: 293
+Transmitting packet from 1 sent to 2
+time: 273
+Transmitting packet from 1 sent to 2
+time: 44
+Transmitting packet from 1 sent to 4
+time: 367
+Transmitting packet from 1 sent to 3
+time: 396
+Transmitting packet from 1 sent to 3
+time: 70
+Transmitting packet from 1 sent to 4
+time: 376
+Transmitting packet from 1 sent to 2
+time: 592
+Transmitting packet from 1 sent to 4
+time: 49
+Transmitting packet from 1 sent to 3
+time: 405
+Transmitting packet from 1 sent to 2
+time: 180
+Transmitting packet from 1 sent to 3
+Transmitting packet from 1 sent to 2
+time: 157
+time: 156
+Transmitting packet from 1 sent to 4
+time: 660
+Transmitting packet from 1 sent to 2
+time: 205
+Transmitting packet from 1 sent to 3
+time: 297
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 4
+time: 64
+Transmitting packet from 1 sent to 4
+time: 108
+Transmitting packet from 1 sent to 3
+time: 178
+Transmitting packet from 1 sent to 3
+time: 109
+Transmitting packet from 1 sent to 4
+time: 146
+Transmitting packet from 1 sent to 2
+time: 591
+Transmitting packet from 1 sent to 4
+time: 107
+Transmitting packet from 1 sent to 3
+time: 471
+Transmitting packet from 1 sent to 2
+time: 317
+Transmitting packet from 1 sent to 4
+time: 441
+Transmitting packet from 1 sent to 3
+time: 358
+Transmitting packet from 1 sent to 2
+time: 293
+Transmitting packet from 1 sent to 4
+time: 354
+Transmitting packet from 1 sent to 3
+time: 276
+Transmitting packet from 1 sent to 2
+time: 282
+Transmitting packet from 1 sent to 4
+time: 279
+Transmitting packet from 1 sent to 3
+time: 296
+Transmitting packet from 1 sent to 2
+time: 292
+Transmitting packet from 1 sent to 2
+time: 67
+Transmitting packet from 1 sent to 4
+time: 310
+Transmitting packet from 1 sent to 3
+time: 347
+Transmitting packet from 1 sent to 3
+time: 29
+Transmitting packet from 1 sent to 4
+time: 357
+Transmitting packet from 1 sent to 2
+time: 441
+Transmitting packet from 1 sent to 4
+time: 61
+Transmitting packet from 1 sent to 3
+time: 401
+Transmitting packet from 1 sent to 2
+time: 368
+Transmitting packet from 1 sent to 2
+time: 32
+Transmitting packet from 1 sent to 4
+time: 443
+Transmitting packet from 1 sent to 3
+time: 424
+Transmitting packet from 1 sent to 2
+time: 391
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 2
+time: 47
+Transmitting packet from 1 sent to 4
+time: 620
+Transmitting packet from 1 sent to 3
+time: 265
+Transmitting packet from 1 sent to 4
+time: 79
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 2
+time: 454
+Transmitting packet from 1 sent to 4
+time: 110
+Transmitting packet from 1 sent to 2
+time: 13
+Transmitting packet from 1 sent to 4
+time: 135
+Transmitting packet from 1 sent to 3
+time: 427
+Transmitting packet from 1 sent to 3
+time: 50
+Transmitting packet from 1 sent to 4
+time: 291
+Transmitting packet from 1 sent to 2
+time: 445
+Transmitting packet from 1 sent to 4
+time: 101
+Transmitting packet from 1 sent to 3
+time: 344
+Transmitting packet from 1 sent to 2
+time: 375
+Transmitting packet from 1 sent to 4
+time: 363
+Transmitting packet from 1 sent to 3
+time: 362
+Transmitting packet from 1 sent to 2
+time: 374
+Transmitting packet from 1 sent to 4
+time: 381
+Transmitting packet from 1 sent to 3
+time: 357
+Transmitting packet from 1 sent to 2
+time: 365
+Transmitting packet from 1 sent to 4
+time: 438
+Transmitting packet from 1 sent to 3
+time: 401
+Transmitting packet from 1 sent to 2
+time: 305
+Transmitting packet from 1 sent to 4
+time: 351
+Transmitting packet from 1 sent to 3
+time: 231
+Transmitting packet from 1 sent to 2
+time: 369
+Transmitting packet from 1 sent to 4
+time: 207
+Transmitting packet from 1 sent to 3
+time: 421
+Transmitting packet from 1 sent to 2
+time: 365
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 4
+time: 476
+Transmitting packet from 1 sent to 3
+time: 482
+Transmitting packet from 1 sent to 4
+time: 463
+Transmitting packet from 1 sent to 2
+time: 513
+Transmitting packet from 1 sent to 3
+time: 259
+Transmitting packet from 1 sent to 4
+time: 201
+Transmitting packet from 1 sent to 3
+time: 215
+Transmitting packet from 1 sent to 2
+time: 569
+Transmitting packet from 1 sent to 4
+time: 244
+Transmitting packet from 1 sent to 2
+time: 21
+Transmitting packet from 1 sent to 3
+time: 609
+Transmitting packet from 1 sent to 3
+time: 68
+Transmitting packet from 1 sent to 2
+time: 430
+Transmitting packet from 1 sent to 4
+time: 561
+Transmitting packet from 1 sent to 4
+time: 76
+Transmitting packet from 1 sent to 3
+time: 294
+Transmitting packet from 1 sent to 2
+time: 321
+Transmitting packet from 1 sent to 2
+time: 49
+Transmitting packet from 1 sent to 4
+time: 349
+Transmitting packet from 1 sent to 3
+time: 376
+Transmitting packet from 1 sent to 3
+time: 27
+Transmitting packet from 1 sent to 4
+time: 368
+Transmitting packet from 1 sent to 2
+time: 453
+Transmitting packet from 1 sent to 4
+Transmitting packet from 1 sent to 2
+time: 55
+time: 44
+Transmitting packet from 1 sent to 3
+time: 394
+Transmitting packet from 1 sent to 2
+time: 286
+Transmitting packet from 1 sent to 4
+time: 356
+Transmitting packet from 1 sent to 3
+time: 216
+Transmitting packet from 1 sent to 2
+time: 330
+Transmitting packet from 1 sent to 4
+time: 295
+Transmitting packet from 1 sent to 3
+time: 305
+Transmitting packet from 1 sent to 4
+Transmitting packet from 1 sent to 2
+time: 262
+time: 219
+Transmitting packet from 1 sent to 3
+time: 246
+Transmitting packet from 1 sent to 4
+time: 188
+Transmitting packet from 1 sent to 3
+time: 201
+Transmitting packet from 1 sent to 4
+time: 192
+Transmitting packet from 4 sent to 1
+time: 56837379
+Transmitting packet from 3 sent to 1
+time: 56837333
+Transmitting packet from 4 sent to 1
+time: 367
+Transmitting packet from 3 sent to 1
+time: 218
+Transmitting packet from 4 sent to 1
+time: 4303
+Transmitting packet from 4 sent to 1
+time: 24
+Transmitting packet from 4 sent to 1
+time: 19
+Transmitting packet from 4 sent to 1
+time: 21
+Transmitting packet from 3 sent to 1
+time: 5035
+Transmitting packet from 4 sent to 1
+time: 20
+Transmitting packet from 3 sent to 1
+time: 21
+Transmitting packet from 4 sent to 1
+time: 47
+Transmitting packet from 3 sent to 1
+time: 18
+Transmitting packet from 3 sent to 1
+time: 19
+Transmitting packet from 4 sent to 1
+time: 944
+Transmitting packet from 3 sent to 1
+time: 31
+Transmitting packet from 3 sent to 1
+time: 18
+Transmitting packet from 3 sent to 1
+time: 18
+Transmitting packet from 4 sent to 1
+time: 3674
+Transmitting packet from 3 sent to 1
+time: 2680
+Transmitting packet from 4 sent to 1
+time: 871
+Transmitting packet from 3 sent to 1
+time: 850
+Transmitting packet from 4 sent to 1
+time: 1159
+Transmitting packet from 3 sent to 1
+time: 1309
+Transmitting packet from 4 sent to 1
+time: 731
+Transmitting packet from 3 sent to 1
+time: 647
+Transmitting packet from 4 sent to 1
+time: 2196
+Transmitting packet from 4 sent to 1
+time: 25
+Transmitting packet from 3 sent to 1
+time: 2637
+Transmitting packet from 4 sent to 1
+time: 339
+Transmitting packet from 3 sent to 1
+time: 21
+Transmitting packet from 3 sent to 1
+time: 13
+Transmitting packet from 4 sent to 1
+time: 922
+Transmitting packet from 3 sent to 1
+time: 936
+Transmitting packet from 4 sent to 1
+time: 950
+Transmitting packet from 3 sent to 1
+time: 1091
+Transmitting packet from 4 sent to 1
+time: 978
+Transmitting packet from 3 sent to 1
+time: 862
+Transmitting packet from 4 sent to 1
+time: 914
+Transmitting packet from 3 sent to 1
+time: 924
+Transmitting packet from 4 sent to 1
+time: 973
+Transmitting packet from 3 sent to 1
+time: 967
+Transmitting packet from 4 sent to 1
+time: 1086
+Transmitting packet from 3 sent to 1
+time: 1088
+Transmitting packet from 4 sent to 1
+time: 855
+Transmitting packet from 3 sent to 1
+time: 874
+Transmitting packet from 4 sent to 1
+time: 1181
+Transmitting packet from 3 sent to 1
+time: 1195
+Transmitting packet from 4 sent to 1
+time: 1407
+Transmitting packet from 3 sent to 1
+time: 1440
+Transmitting packet from 4 sent to 1
+time: 2397
+Transmitting packet from 4 sent to 1
+time: 23
+Transmitting packet from 3 sent to 1
+time: 2525
+Transmitting packet from 4 sent to 1
+time: 22
+Transmitting packet from 3 sent to 1
+time: 187
+Transmitting packet from 3 sent to 1
+time: 102
+Transmitting packet from 4 sent to 1
+time: 450
+Transmitting packet from 3 sent to 1
+time: 460
+Transmitting packet from 4 sent to 1
+time: 934
+Transmitting packet from 3 sent to 1
+time: 928
+Transmitting packet from 4 sent to 1
+time: 950
+Transmitting packet from 3 sent to 1
+time: 1090
+Transmitting packet from 4 sent to 1
+time: 923
+Transmitting packet from 3 sent to 1
+time: 760
+Transmitting packet from 4 sent to 1
+time: 941
+Transmitting packet from 3 sent to 1
+time: 975
+Transmitting packet from 4 sent to 1
+time: 949
+Transmitting packet from 3 sent to 1
+time: 917
+Transmitting packet from 4 sent to 1
+time: 946
+Transmitting packet from 3 sent to 1
+time: 963
+Transmitting packet from 4 sent to 1
+time: 965
+Transmitting packet from 4 sent to 1
+time: 1231
+Transmitting packet from 4 sent to 1
+time: 990
+Transmitting packet from 4 sent to 1
+time: 1003
+Transmitting packet from 3 sent to 1
+time: 4307
+Transmitting packet from 3 sent to 1
+time: 16
+Transmitting packet from 3 sent to 1
+time: 16
+Transmitting packet from 3 sent to 1
+time: 325
+Transmitting packet from 4 sent to 1
+time: 984
+Transmitting packet from 3 sent to 1
+time: 535
+Transmitting packet from 4 sent to 1
+time: 993
+Transmitting packet from 3 sent to 1
+time: 996
+Transmitting packet from 4 sent to 1
+time: 992
+Transmitting packet from 3 sent to 1
+time: 1015
+Transmitting packet from 4 sent to 1
+time: 1002
+Transmitting packet from 3 sent to 1
+time: 1000
+Transmitting packet from 4 sent to 1
+time: 1000
+Transmitting packet from 3 sent to 1
+time: 993
+Transmitting packet from 4 sent to 1
+time: 1006
+Transmitting packet from 3 sent to 1
+time: 967
+Transmitting packet from 4 sent to 1
+time: 1017
+Transmitting packet from 4 sent to 1
+time: 1000
+Transmitting packet from 4 sent to 1
+time: 1049
+Transmitting packet from 3 sent to 1
+time: 3018
+Transmitting packet from 3 sent to 1
+time: 18
+Transmitting packet from 3 sent to 1
+time: 15
+Transmitting packet from 4 sent to 1
+time: 919
+Transmitting packet from 3 sent to 1
+time: 886
+Transmitting packet from 4 sent to 1
+time: 987
+Transmitting packet from 3 sent to 1
+time: 987
+Transmitting packet from 4 sent to 1
+time: 1007
+Transmitting packet from 3 sent to 1
+time: 989
+Transmitting packet from 4 sent to 1
+time: 1195
+Transmitting packet from 3 sent to 1
+time: 1236
+Transmitting packet from 4 sent to 1
+time: 947
+Transmitting packet from 3 sent to 1
+time: 984
+Transmitting packet from 4 sent to 1
+time: 932
+Transmitting packet from 3 sent to 1
+time: 880
+Transmitting packet from 4 sent to 1
+time: 1117
+Transmitting packet from 4 sent to 1
+time: 2480
+Transmitting packet from 3 sent to 1
+time: 2727
+Transmitting packet from 4 sent to 1
+time: 26
+Transmitting packet from 3 sent to 1
+time: 188
+Transmitting packet from 4 sent to 1
+time: 152
+Transmitting packet from 3 sent to 1
+time: 15
+Transmitting packet from 3 sent to 1
+time: 114
+Transmitting packet from 4 sent to 1
+time: 956
+Transmitting packet from 3 sent to 1
+time: 966
+Transmitting packet from 4 sent to 1
+time: 978
+Transmitting packet from 3 sent to 1
+time: 1037
+Transmitting packet from 4 sent to 1
+time: 875
+Transmitting packet from 3 sent to 1
+time: 852
+Transmitting packet from 4 sent to 1
+time: 1051
+Transmitting packet from 3 sent to 1
+time: 1070
+Transmitting packet from 4 sent to 1
+time: 851
+Transmitting packet from 3 sent to 1
+time: 839
+Transmitting packet from 4 sent to 1
+time: 4934
+Transmitting packet from 4 sent to 1
+time: 25
+Transmitting packet from 3 sent to 1
+time: 5136
+Transmitting packet from 4 sent to 1
+time: 22
+Transmitting packet from 3 sent to 1
+time: 17
+Transmitting packet from 4 sent to 1
+time: 20
+Transmitting packet from 3 sent to 1
+time: 14
+Transmitting packet from 4 sent to 1
+time: 19
+Transmitting packet from 3 sent to 1
+time: 13
+Transmitting packet from 3 sent to 1
+time: 13
+Transmitting packet from 4 sent to 1
+time: 492
+Transmitting packet from 3 sent to 1
+time: 469
+Transmitting packet from 4 sent to 1
+time: 1003
+Transmitting packet from 3 sent to 1
+time: 905
+Transmitting packet from 4 sent to 1
+time: 1075
+Transmitting packet from 3 sent to 1
+time: 1255
+Transmitting packet from 4 sent to 1
+time: 930
+Transmitting packet from 3 sent to 1
+time: 809
+Transmitting packet from 4 sent to 1
+time: 998
+Transmitting packet from 3 sent to 1
+time: 974
+Transmitting packet from 4 sent to 1
+time: 1067
+Transmitting packet from 3 sent to 1
+time: 1066
+Transmitting packet from 4 sent to 1
+time: 908
+Transmitting packet from 3 sent to 1
+time: 918
+Transmitting packet from 4 sent to 1
+time: 956
+Transmitting packet from 3 sent to 1
+time: 1099
+Transmitting packet from 4 sent to 1
+time: 2800
+Transmitting packet from 4 sent to 1
+time: 24
+Transmitting packet from 3 sent to 1
+time: 2735
+Transmitting packet from 4 sent to 1
+time: 21
+Transmitting packet from 3 sent to 1
+time: 15
+Transmitting packet from 3 sent to 1
+time: 14
+Transmitting packet from 4 sent to 1
+time: 1033
+Transmitting packet from 3 sent to 1
+time: 1168
+Transmitting packet from 4 sent to 1
+time: 1021
+Transmitting packet from 3 sent to 1
+time: 884
+Transmitting packet from 4 sent to 1
+time: 1008
+Transmitting packet from 3 sent to 1
+time: 1037
+Transmitting packet from 4 sent to 1
+time: 924
+Transmitting packet from 3 sent to 1
+time: 875
+Transmitting packet from 4 sent to 1
+time: 1193
+Transmitting packet from 3 sent to 1
+time: 1099
+Transmitting packet from 4 sent to 1
+time: 762
+Transmitting packet from 3 sent to 1
+time: 670
+Transmitting packet from 4 sent to 1
+time: 957
+Transmitting packet from 3 sent to 1
+time: 877
+Transmitting packet from 4 sent to 1
+time: 958
+Transmitting packet from 3 sent to 1
+time: 1023
+Transmitting packet from 4 sent to 1
+time: 1226
+Transmitting packet from 3 sent to 1
+time: 1245
+Transmitting packet from 4 sent to 1
+time: 618
+Transmitting packet from 4 sent to 1
+time: 950
+Transmitting packet from 4 sent to 1
+time: 942
+Transmitting packet from 3 sent to 1
+time: 498
+Transmitting packet from 3 sent to 1
+time: 24
+Transmitting packet from 3 sent to 1
+time: 293
+Transmitting packet from 4 sent to 1
+time: 2035
+Transmitting packet from 4 sent to 1
+time: 190
+Transmitting packet from 3 sent to 1
+time: 617
+Transmitting packet from 3 sent to 1
+time: 349
+Transmitting packet from 4 sent to 1
+time: 1297
+Transmitting packet from 3 sent to 1
+time: 1534
+Transmitting packet from 4 sent to 1
+time: 569
+Transmitting packet from 3 sent to 1
+time: 661
+Transmitting packet from 4 sent to 1
+time: 1073
+Transmitting packet from 3 sent to 1
+time: 606
+Transmitting packet from 4 sent to 1
+time: 1065
+Transmitting packet from 3 sent to 1
+time: 1065
+Transmitting packet from 4 sent to 1
+time: 937
+Transmitting packet from 3 sent to 1
+time: 943
+Transmitting packet from 4 sent to 1
+time: 995
+Transmitting packet from 3 sent to 1
+time: 1097
+Transmitting packet from 4 sent to 1
+time: 893
+Transmitting packet from 3 sent to 1
+time: 1129
+Transmitting packet from 1 sent to 2
+time: 56483863
+Transmitting packet from 1 sent to 2
+time: 25
+Transmitting packet from 1 sent to 3
+time: 56484161
+Transmitting packet from 1 sent to 2
+time: 451
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 2
+time: 19
+Transmitting packet from 1 sent to 4
+time: 56484290
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 4
+time: 65
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 2
+time: 13
+Transmitting packet from 1 sent to 2
+time: 13
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 2
+time: 2405
+Transmitting packet from 1 sent to 2
+time: 34
+Transmitting packet from 1 sent to 2
+time: 13
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 3
+time: 4986
+Transmitting packet from 1 sent to 3
+time: 19
+Transmitting packet from 1 sent to 2
+time: 823
+Transmitting packet from 1 sent to 4
+time: 5015
+Transmitting packet from 1 sent to 3
+time: 23
+Transmitting packet from 1 sent to 2
+time: 19
+Transmitting packet from 1 sent to 4
+time: 175
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 4
+time: 9
+Transmitting packet from 1 sent to 2
+time: 14
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 4
+time: 9
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 2
+time: 13
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 4
+time: 387
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 4
+time: 556
+Transmitting packet from 1 sent to 2
+time: 20
+Transmitting packet from 1 sent to 3
+time: 18
+Transmitting packet from 1 sent to 4
+time: 15
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 2
+time: 14
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 2
+time: 18
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 2
+time: 20
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 3
+time: 440
+Transmitting packet from 1 sent to 3
+time: 18
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 4
+time: 1545
+Transmitting packet from 1 sent to 2
+time: 14
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 4
+time: 10
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 1 sent to 2
+time: 34
+Transmitting packet from 1 sent to 3
+time: 20
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 1 sent to 4
+time: 11
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 4
+Transmitting packet from 1 sent to 2
+time: 12
+time: 13
+Transmitting packet from 1 sent to 4
+Transmitting packet from 1 sent to 2
+time: 13
+time: 14
+Transmitting packet from 1 sent to 4
+Transmitting packet from 1 sent to 2
+time: 13
+time: 13
+Transmitting packet from 1 sent to 4
+Transmitting packet from 1 sent to 2
+time: 14
+time: 15
+Transmitting packet from 1 sent to 4
+Transmitting packet from 1 sent to 2
+time: 13
+time: 14
+Transmitting packet from 1 sent to 2
+Transmitting packet from 1 sent to 4
+time: 15
+time: 14
+Transmitting packet from 1 sent to 4
+Transmitting packet from 1 sent to 2
+time: 12
+time: 13
+Transmitting packet from 1 sent to 2
+time: 14
+Transmitting packet from 1 sent to 2
+time: 11
+Transmitting packet from 1 sent to 2
+time: 9
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 3
+time: 2143
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 2
+time: 14
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 2
+time: 13
+Transmitting packet from 1 sent to 3
+time: 260
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 4
+time: 1472
+Transmitting packet from 1 sent to 3
+time: 18
+Transmitting packet from 1 sent to 2
+time: 18
+Transmitting packet from 1 sent to 4
+time: 17
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 3
+Transmitting packet from 1 sent to 4
+time: 16
+time: 58
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 2
+time: 14
+Transmitting packet from 1 sent to 4
+time: 179
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 2
+Transmitting packet from 1 sent to 4
+time: 15
+time: 14
+Transmitting packet from 1 sent to 2
+time: 13
+Transmitting packet from 1 sent to 3
+time: 1445
+Transmitting packet from 1 sent to 3
+Transmitting packet from 1 sent to 2
+time: 18
+time: 22
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 2
+Transmitting packet from 1 sent to 3
+time: 19
+time: 15
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 2
+Transmitting packet from 1 sent to 3
+time: 18
+time: 16
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 2
+time: 19
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 2
+Transmitting packet from 1 sent to 3
+time: 14
+time: 19
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 2
+time: 18
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 3
+time: 128
+Transmitting packet from 1 sent to 4
+time: 4711
+Transmitting packet from 1 sent to 3
+time: 2043
+Transmitting packet from 1 sent to 4
+time: 25
+Transmitting packet from 1 sent to 2
+time: 2021
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 24
+Transmitting packet from 1 sent to 4
+time: 16
+Transmitting packet from 1 sent to 3
+time: 424
+Transmitting packet from 1 sent to 4
+time: 16
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 135
+Transmitting packet from 1 sent to 3
+time: 327
+Transmitting packet from 1 sent to 4
+time: 16
+Transmitting packet from 1 sent to 4
+time: 16
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 4
+time: 15
+Transmitting packet from 1 sent to 2
+time: 18
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 3
+time: 478
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 4
+time: 16
+Transmitting packet from 1 sent to 2
+time: 21
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 13
+Transmitting packet from 1 sent to 3
+time: 84
+Transmitting packet from 1 sent to 3
+time: 10
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 4
+time: 317
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 4
+time: 9
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 4
+time: 10
+Transmitting packet from 1 sent to 4
+time: 8
+Transmitting packet from 1 sent to 2
+time: 2221
+Transmitting packet from 1 sent to 2
+time: 25
+Transmitting packet from 1 sent to 3
+time: 2282
+Transmitting packet from 1 sent to 3
+time: 39
+Transmitting packet from 1 sent to 2
+time: 262
+Transmitting packet from 1 sent to 4
+time: 1591
+Transmitting packet from 1 sent to 2
+time: 18
+Transmitting packet from 1 sent to 3
+time: 283
+Transmitting packet from 1 sent to 4
+time: 16
+Transmitting packet from 1 sent to 2
+time: 18
+Transmitting packet from 1 sent to 3
+time: 44
+Transmitting packet from 1 sent to 3
+time: 43
+Transmitting packet from 1 sent to 4
+time: 293
+Transmitting packet from 1 sent to 2
+time: 299
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 3
+time: 301
+Transmitting packet from 1 sent to 4
+time: 15
+Transmitting packet from 1 sent to 4
+time: 128
+Transmitting packet from 1 sent to 2
+time: 339
+Transmitting packet from 1 sent to 3
+time: 478
+Transmitting packet from 1 sent to 2
+time: 43
+Transmitting packet from 1 sent to 3
+time: 48
+Transmitting packet from 1 sent to 4
+time: 718
+Transmitting packet from 1 sent to 2
+time: 18
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 3
+time: 537
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 3
+time: 200
+Transmitting packet from 1 sent to 4
+time: 698
+Transmitting packet from 1 sent to 3
+time: 216
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 19
+Transmitting packet from 1 sent to 4
+time: 9
+Transmitting packet from 1 sent to 4
+time: 15
+Transmitting packet from 1 sent to 2
+time: 273
+Transmitting packet from 1 sent to 3
+time: 594
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 3
+time: 233
+Transmitting packet from 1 sent to 4
+time: 390
+Transmitting packet from 1 sent to 4
+time: 10
+Transmitting packet from 1 sent to 2
+time: 281
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 3
+time: 500
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 3
+time: 11
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 4
+time: 1074
+Transmitting packet from 1 sent to 2
+time: 19
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 1 sent to 4
+time: 8
+Transmitting packet from 1 sent to 3
+time: 1578
+Transmitting packet from 1 sent to 3
+time: 19
+Transmitting packet from 1 sent to 4
+time: 1727
+Transmitting packet from 1 sent to 4
+time: 19
+Transmitting packet from 4 sent to 1
+time: 96282514
+Transmitting packet from 3 sent to 1
+time: 96282383
+Transmitting packet from 4 sent to 1
+time: 1028
+Transmitting packet from 4 sent to 1
+time: 18
+Transmitting packet from 4 sent to 1
+time: 473
+Transmitting packet from 3 sent to 1
+time: 1618
+Transmitting packet from 3 sent to 1
+time: 17
+Transmitting packet from 3 sent to 1
+time: 12
+Transmitting packet from 4 sent to 1
+time: 656
+Transmitting packet from 3 sent to 1
+time: 448
+Transmitting packet from 4 sent to 1
+time: 982
+Transmitting packet from 3 sent to 1
+time: 2416
+Transmitting packet from 4 sent to 1
+time: 755
+Transmitting packet from 4 sent to 1
+time: 21
+Transmitting packet from 3 sent to 1
+time: 567
+Transmitting packet from 3 sent to 1
+time: 12
+Transmitting packet from 4 sent to 1
+time: 520
+Transmitting packet from 3 sent to 1
+time: 363
+Transmitting packet from 4 sent to 1
+time: 3179
+Transmitting packet from 3 sent to 1
+time: 3273
+Transmitting packet from 4 sent to 1
+time: 851
+Transmitting packet from 3 sent to 1
+time: 785
+Transmitting packet from 4 sent to 1
+time: 804
+Transmitting packet from 3 sent to 1
+time: 804
+Transmitting packet from 4 sent to 1
+time: 806
+Transmitting packet from 3 sent to 1
+time: 810
+Transmitting packet from 4 sent to 1
+time: 829
+Transmitting packet from 3 sent to 1
+time: 849
+Transmitting packet from 4 sent to 1
+time: 809
+Transmitting packet from 3 sent to 1
+time: 790
+Transmitting packet from 4 sent to 1
+time: 756
+Transmitting packet from 3 sent to 1
+time: 639
+Transmitting packet from 4 sent to 1
+time: 794
+Transmitting packet from 3 sent to 1
+time: 803
+Transmitting packet from 4 sent to 1
+time: 798
+Transmitting packet from 3 sent to 1
+time: 795
+Transmitting packet from 4 sent to 1
+time: 822
+Transmitting packet from 3 sent to 1
+time: 822
+Transmitting packet from 4 sent to 1
+time: 837
+Transmitting packet from 3 sent to 1
+time: 837
+Transmitting packet from 4 sent to 1
+time: 803
+Transmitting packet from 3 sent to 1
+time: 805
+Transmitting packet from 4 sent to 1
+time: 833
+Transmitting packet from 3 sent to 1
+time: 837
+Transmitting packet from 4 sent to 1
+time: 817
+Transmitting packet from 3 sent to 1
+time: 847
+Transmitting packet from 4 sent to 1
+time: 2387
+Transmitting packet from 3 sent to 1
+time: 2408
+Transmitting packet from 4 sent to 1
+time: 781
+Transmitting packet from 3 sent to 1
+time: 801
+Transmitting packet from 4 sent to 1
+time: 867
+Transmitting packet from 3 sent to 1
+time: 872
+Transmitting packet from 4 sent to 1
+time: 811
+Transmitting packet from 3 sent to 1
+time: 746
+Transmitting packet from 4 sent to 1
+time: 819
+Transmitting packet from 3 sent to 1
+time: 819
+Transmitting packet from 4 sent to 1
+time: 793
+Transmitting packet from 3 sent to 1
+time: 795
+Transmitting packet from 4 sent to 1
+time: 811
+Transmitting packet from 3 sent to 1
+time: 814
+Transmitting packet from 4 sent to 1
+time: 891
+Transmitting packet from 3 sent to 1
+time: 893
+Transmitting packet from 4 sent to 1
+time: 774
+Transmitting packet from 3 sent to 1
+time: 773
+Transmitting packet from 4 sent to 1
+time: 770
+Transmitting packet from 3 sent to 1
+time: 771
+Transmitting packet from 4 sent to 1
+time: 786
+Transmitting packet from 3 sent to 1
+time: 813
+Transmitting packet from 4 sent to 1
+time: 767
+Transmitting packet from 3 sent to 1
+time: 766
+Transmitting packet from 4 sent to 1
+time: 898
+Transmitting packet from 3 sent to 1
+time: 902
+Transmitting packet from 4 sent to 1
+time: 814
+Transmitting packet from 3 sent to 1
+time: 895
+Transmitting packet from 4 sent to 1
+time: 952
+Transmitting packet from 3 sent to 1
+time: 960
+Transmitting packet from 4 sent to 1
+time: 878
+Transmitting packet from 3 sent to 1
+time: 854
+Transmitting packet from 4 sent to 1
+time: 788
+Transmitting packet from 3 sent to 1
+time: 785
+Transmitting packet from 4 sent to 1
+time: 801
+Transmitting packet from 3 sent to 1
+time: 807
+Transmitting packet from 4 sent to 1
+time: 794
+Transmitting packet from 3 sent to 1
+time: 802
+Transmitting packet from 4 sent to 1
+time: 782
+Transmitting packet from 3 sent to 1
+time: 775
+Transmitting packet from 4 sent to 1
+time: 777
+Transmitting packet from 3 sent to 1
+time: 800
+Transmitting packet from 4 sent to 1
+time: 762
+Transmitting packet from 3 sent to 1
+time: 743
+Transmitting packet from 4 sent to 1
+time: 937
+Transmitting packet from 3 sent to 1
+time: 939
+Transmitting packet from 4 sent to 1
+time: 1038
+Transmitting packet from 3 sent to 1
+time: 1026
+Transmitting packet from 4 sent to 1
+time: 927
+Transmitting packet from 3 sent to 1
+time: 973
+Transmitting packet from 4 sent to 1
+time: 949
+Transmitting packet from 3 sent to 1
+time: 947
+Transmitting packet from 4 sent to 1
+time: 1001
+Transmitting packet from 3 sent to 1
+time: 1001
+Transmitting packet from 4 sent to 1
+time: 930
+Transmitting packet from 3 sent to 1
+time: 1016
+Transmitting packet from 4 sent to 1
+time: 1291
+Transmitting packet from 3 sent to 1
+time: 1304
+Transmitting packet from 4 sent to 1
+time: 934
+Transmitting packet from 3 sent to 1
+time: 943
+Transmitting packet from 4 sent to 1
+time: 957
+Transmitting packet from 3 sent to 1
+time: 946
+Transmitting packet from 4 sent to 1
+time: 995
+Transmitting packet from 3 sent to 1
+time: 992
+Transmitting packet from 4 sent to 1
+time: 1017
+Transmitting packet from 3 sent to 1
+time: 1019
+Transmitting packet from 4 sent to 1
+time: 936
+Transmitting packet from 3 sent to 1
+time: 941
+Transmitting packet from 4 sent to 1
+time: 997
+Transmitting packet from 3 sent to 1
+time: 995
+Transmitting packet from 4 sent to 1
+time: 1060
+Transmitting packet from 3 sent to 1
+time: 1063
+Transmitting packet from 4 sent to 1
+time: 921
+Transmitting packet from 3 sent to 1
+time: 856
+Transmitting packet from 4 sent to 1
+time: 1031
+Transmitting packet from 3 sent to 1
+time: 1052
+Transmitting packet from 4 sent to 1
+time: 1026
+Transmitting packet from 3 sent to 1
+time: 1106
+Transmitting packet from 4 sent to 1
+time: 935
+Transmitting packet from 3 sent to 1
+time: 860
+Transmitting packet from 4 sent to 1
+time: 1016
+Transmitting packet from 3 sent to 1
+time: 1019
+Transmitting packet from 4 sent to 1
+time: 968
+Transmitting packet from 3 sent to 1
+time: 972
+Transmitting packet from 4 sent to 1
+time: 1361
+Transmitting packet from 3 sent to 1
+time: 1371
+Transmitting packet from 4 sent to 1
+time: 981
+Transmitting packet from 3 sent to 1
+time: 983
+Transmitting packet from 4 sent to 1
+time: 1007
+Transmitting packet from 3 sent to 1
+time: 1002
+Transmitting packet from 4 sent to 1
+time: 1023
+Transmitting packet from 3 sent to 1
+time: 1027
+Transmitting packet from 4 sent to 1
+time: 1012
+Transmitting packet from 3 sent to 1
+time: 1018
+Transmitting packet from 4 sent to 1
+time: 974
+Transmitting packet from 3 sent to 1
+time: 974
+Transmitting packet from 4 sent to 1
+time: 1005
+Transmitting packet from 3 sent to 1
+time: 1123
+Transmitting packet from 4 sent to 1
+time: 884
+Transmitting packet from 3 sent to 1
+time: 870
+Transmitting packet from 4 sent to 1
+time: 1019
+Transmitting packet from 3 sent to 1
+time: 1048
+Transmitting packet from 4 sent to 1
+time: 997
+Transmitting packet from 3 sent to 1
+time: 971
+Transmitting packet from 4 sent to 1
+time: 1005
+Transmitting packet from 3 sent to 1
+time: 1009
+Transmitting packet from 4 sent to 1
+time: 1008
+Transmitting packet from 3 sent to 1
+time: 1009
+Transmitting packet from 4 sent to 1
+time: 997
+Transmitting packet from 3 sent to 1
+time: 906
+Transmitting packet from 4 sent to 1
+time: 1062
+Transmitting packet from 3 sent to 1
+time: 1063
+Transmitting packet from 4 sent to 1
+time: 1346
+Transmitting packet from 3 sent to 1
+time: 1361
+Transmitting packet from 4 sent to 1
+time: 1039
+Transmitting packet from 3 sent to 1
+time: 1031
+Transmitting packet from 4 sent to 1
+time: 992
+Transmitting packet from 3 sent to 1
+time: 997
+Transmitting packet from 4 sent to 1
+time: 1015
+Transmitting packet from 3 sent to 1
+time: 1040
+Transmitting packet from 4 sent to 1
+time: 982
+Transmitting packet from 3 sent to 1
+time: 961
+Transmitting packet from 4 sent to 1
+time: 980
+Transmitting packet from 3 sent to 1
+time: 903
+Transmitting packet from 4 sent to 1
+time: 1072
+Transmitting packet from 3 sent to 1
+time: 1073
+Transmitting packet from 4 sent to 1
+time: 1007
+Transmitting packet from 3 sent to 1
+time: 1012
+Transmitting packet from 4 sent to 1
+time: 1011
+Transmitting packet from 3 sent to 1
+time: 1018
+Transmitting packet from 4 sent to 1
+time: 1000
+Transmitting packet from 3 sent to 1
+time: 1000
+Transmitting packet from 4 sent to 1
+time: 1020
+Transmitting packet from 3 sent to 1
+time: 1025
+Transmitting packet from 4 sent to 1
+time: 1025
+Transmitting packet from 3 sent to 1
+time: 1032
+Transmitting packet from 4 sent to 1
+time: 1071
+Transmitting packet from 3 sent to 1
+time: 1064
+Transmitting packet from 4 sent to 1
+time: 1570
+Transmitting packet from 3 sent to 1
+time: 1588
+Transmitting packet from 4 sent to 1
+time: 1338
+Transmitting packet from 3 sent to 1
+time: 1332
+Transmitting packet from 4 sent to 1
+time: 986
+Transmitting packet from 3 sent to 1
+time: 1002
+Transmitting packet from 4 sent to 1
+time: 953
+Transmitting packet from 3 sent to 1
+time: 956
+Transmitting packet from 4 sent to 1
+time: 976
+Transmitting packet from 3 sent to 1
+time: 976
+Transmitting packet from 4 sent to 1
+time: 975
+Transmitting packet from 3 sent to 1
+time: 978
+Transmitting packet from 4 sent to 1
+time: 962
+Transmitting packet from 3 sent to 1
+time: 1160
+Transmitting packet from 4 sent to 1
+time: 969
+Transmitting packet from 3 sent to 1
+time: 884
+Transmitting packet from 1 sent to 2
+time: 97114884
+Transmitting packet from 1 sent to 2
+time: 29
+Transmitting packet from 1 sent to 3
+time: 97113624
+Transmitting packet from 1 sent to 2
+time: 20
+Transmitting packet from 1 sent to 2
+time: 18
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 2
+time: 18
+Transmitting packet from 1 sent to 3
+time: 18
+Transmitting packet from 1 sent to 2
+time: 18
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 3
+time: 130
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 2
+time: 14
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 4
+time: 97114663
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 3
+time: 489
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 2
+time: 18
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 2
+time: 20
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 2
+time: 14
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 4
+time: 1501
+Transmitting packet from 1 sent to 3
+time: 11
+Transmitting packet from 1 sent to 2
+time: 19
+Transmitting packet from 1 sent to 4
+time: 15
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 2
+time: 18
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 4
+time: 16
+Transmitting packet from 1 sent to 2
+time: 19
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 4
+time: 16
+Transmitting packet from 1 sent to 3
+time: 45
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 1 sent to 2
+time: 18
+Transmitting packet from 1 sent to 3
+time: 205
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 2
+time: 13
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 3
+time: 248
+Transmitting packet from 1 sent to 4
+Transmitting packet from 1 sent to 3
+time: 13
+time: 15
+Transmitting packet from 1 sent to 2
+time: 18
+Transmitting packet from 1 sent to 4
+time: 15
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 2
+time: 32
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 2
+time: 28
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 3
+time: 247
+Transmitting packet from 1 sent to 2
+time: 19
+Transmitting packet from 1 sent to 4
+time: 15
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 4
+time: 16
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 3
+time: 292
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 4
+time: 11
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 3
+time: 9
+Transmitting packet from 1 sent to 2
+time: 2749
+Transmitting packet from 1 sent to 3
+time: 1855
+Transmitting packet from 1 sent to 2
+time: 18
+Transmitting packet from 1 sent to 2
+time: 19
+Transmitting packet from 1 sent to 3
+time: 76
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 2
+time: 878
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 3
+time: 876
+Transmitting packet from 1 sent to 3
+time: 10
+Transmitting packet from 1 sent to 2
+time: 1240
+Transmitting packet from 1 sent to 3
+time: 1236
+Transmitting packet from 1 sent to 2
+time: 1260
+Transmitting packet from 1 sent to 2
+time: 20
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 3
+time: 1457
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 4
+time: 7571
+Transmitting packet from 1 sent to 3
+time: 279
+Transmitting packet from 1 sent to 4
+time: 20
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 4
+time: 17
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 3
+time: 467
+Transmitting packet from 1 sent to 4
+time: 19
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 3
+time: 269
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 3
+time: 226
+Transmitting packet from 1 sent to 4
+time: 20
+Transmitting packet from 1 sent to 4
+time: 15
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 3
+time: 282
+Transmitting packet from 1 sent to 4
+time: 15
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 2
+time: 1811
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 2
+time: 14
+Transmitting packet from 1 sent to 2
+time: 14
+Transmitting packet from 1 sent to 4
+time: 251
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 3
+time: 1100
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 4
+time: 163
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 4
+time: 163
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 4
+time: 158
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 4
+time: 137
+Transmitting packet from 1 sent to 2
+time: 14
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 4
+time: 173
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 4
+Transmitting packet from 1 sent to 2
+time: 136
+time: 18
+Transmitting packet from 1 sent to 2
+time: 14
+Transmitting packet from 1 sent to 3
+time: 1675
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 4
+time: 239
+Transmitting packet from 1 sent to 2
+time: 14
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 4
+time: 274
+Transmitting packet from 1 sent to 3
+time: 377
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 4
+time: 332
+Transmitting packet from 1 sent to 3
+time: 409
+Transmitting packet from 1 sent to 2
+time: 14
+Transmitting packet from 1 sent to 2
+time: 14
+Transmitting packet from 1 sent to 4
+Transmitting packet from 1 sent to 3
+time: 228
+time: 122
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 3
+time: 44
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 4
+time: 167
+Transmitting packet from 1 sent to 3
+time: 39
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 3
+Transmitting packet from 1 sent to 2
+time: 14
+time: 13
+Transmitting packet from 1 sent to 4
+time: 121
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 3
+time: 51
+Transmitting packet from 1 sent to 2
+time: 60
+Transmitting packet from 1 sent to 4
+time: 218
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 4
+time: 194
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 4
+time: 192
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 3
+time: 11
+Transmitting packet from 1 sent to 4
+time: 192
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 3
+time: 11
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 3
+time: 11
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 4
+time: 205
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 2
+Transmitting packet from 1 sent to 3
+time: 13
+time: 15
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 4
+time: 198
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 4
+time: 181
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 4
+time: 198
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 4
+time: 201
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 4
+Transmitting packet from 1 sent to 3
+time: 150
+time: 10
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 4
+time: 115
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 3
+time: 11
+Transmitting packet from 1 sent to 4
+time: 109
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 3
+time: 11
+Transmitting packet from 1 sent to 4
+time: 129
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 4
+Transmitting packet from 1 sent to 3
+time: 161
+time: 14
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 4
+time: 195
+Transmitting packet from 1 sent to 3
+time: 11
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 3
+time: 9
+Transmitting packet from 1 sent to 3
+time: 10
+Transmitting packet from 1 sent to 4
+time: 460
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 3
+time: 10
+Transmitting packet from 1 sent to 3
+time: 9
+Transmitting packet from 1 sent to 4
+time: 233
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 3
+time: 9
+Transmitting packet from 1 sent to 3
+time: 10
+Transmitting packet from 1 sent to 4
+time: 379
+Transmitting packet from 1 sent to 4
+time: 44
+Transmitting packet from 1 sent to 4
+time: 2001
+Transmitting packet from 1 sent to 4
+time: 1839
+Transmitting packet from 1 sent to 4
+time: 44
+Transmitting packet from 1 sent to 4
+time: 47
+Transmitting packet from 1 sent to 4
+time: 76
+Transmitting packet from 1 sent to 4
+time: 32
+Transmitting packet from 1 sent to 4
+time: 40
+Transmitting packet from 1 sent to 4
+time: 48
+Transmitting packet from 1 sent to 4
+time: 45
+Transmitting packet from 1 sent to 4
+time: 54
+Transmitting packet from 1 sent to 4
+time: 38
+Transmitting packet from 1 sent to 4
+time: 42
+Transmitting packet from 1 sent to 4
+time: 61
+Transmitting packet from 1 sent to 4
+time: 1384
+Transmitting packet from 1 sent to 4
+time: 71
+Transmitting packet from 1 sent to 4
+time: 52
+Transmitting packet from 1 sent to 4
+time: 44
+Transmitting packet from 1 sent to 4
+time: 45
+Transmitting packet from 1 sent to 4
+time: 47
+Transmitting packet from 1 sent to 4
+time: 78
+Transmitting packet from 1 sent to 4
+time: 28
+Transmitting packet from 1 sent to 4
+time: 43
+Transmitting packet from 1 sent to 4
+time: 1386
+Transmitting packet from 1 sent to 4
+time: 39
+Transmitting packet from 1 sent to 4
+time: 52
+Transmitting packet from 1 sent to 4
+time: 54
+Transmitting packet from 1 sent to 4
+time: 27
+Transmitting packet from 1 sent to 4
+time: 37
+Transmitting packet from 1 sent to 4
+time: 44
+Transmitting packet from 4 sent to 1
+time: 40123834
+Transmitting packet from 4 sent to 1
+time: 28
+Transmitting packet from 3 sent to 2
+time: 40124090
+Transmitting packet from 4 sent to 1
+time: 21
+Transmitting packet from 4 sent to 1
+time: 20
+Transmitting packet from 3 sent to 2
+time: 17
+Transmitting packet from 4 sent to 1
+time: 17
+Transmitting packet from 3 sent to 2
+time: 263
+Transmitting packet from 1 sent to 2
+time: 240403276
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 1 sent to 2
+time: 29
+Transmitting packet from 3 sent to 2
+time: 215
+Transmitting packet from 4 sent to 1
+time: 18
+Transmitting packet from 3 sent to 2
+time: 15
+Transmitting packet from 1 sent to 2
+time: 141
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 4 sent to 1
+time: 17
+Transmitting packet from 4 sent to 1
+time: 18
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 3 sent to 2
+time: 23
+Transmitting packet from 3 sent to 2
+time: 17
+Transmitting packet from 3 sent to 2
+time: 15
+Transmitting packet from 3 sent to 2
+time: 15
+Transmitting packet from 3 sent to 2
+time: 15
+Transmitting packet from 3 sent to 2
+time: 15
+Transmitting packet from 4 sent to 1
+time: 2096
+Transmitting packet from 3 sent to 2
+time: 17
+Transmitting packet from 3 sent to 2
+time: 17
+Transmitting packet from 1 sent to 2
+time: 3903
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 1 sent to 2
+time: 14
+Transmitting packet from 1 sent to 2
+time: 13
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 4 sent to 1
+time: 20
+Transmitting packet from 1 sent to 2
+time: 15
+Transmitting packet from 4 sent to 1
+time: 13
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 4 sent to 1
+time: 20
+Transmitting packet from 3 sent to 2
+time: 1406
+Transmitting packet from 4 sent to 1
+Transmitting packet from 3 sent to 2
+time: 15
+time: 21
+Transmitting packet from 1 sent to 2
+time: 520
+Transmitting packet from 4 sent to 1
+time: 17
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 3 sent to 2
+time: 240
+Transmitting packet from 3 sent to 2
+time: 15
+Transmitting packet from 4 sent to 1
+time: 39
+Transmitting packet from 1 sent to 2
+time: 247
+Transmitting packet from 3 sent to 2
+time: 18
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 3 sent to 2
+time: 18
+Transmitting packet from 4 sent to 1
+time: 30
+Transmitting packet from 1 sent to 2
+time: 172
+Transmitting packet from 3 sent to 2
+time: 18
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 3 sent to 2
+time: 18
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 1 sent to 2
+time: 11
+Transmitting packet from 3 sent to 2
+time: 16
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 1 sent to 2
+time: 11
+Transmitting packet from 3 sent to 2
+time: 16
+Transmitting packet from 4 sent to 1
+time: 17
+Transmitting packet from 1 sent to 2
+time: 11
+Transmitting packet from 4 sent to 1
+time: 15
+Transmitting packet from 3 sent to 2
+time: 17
+Transmitting packet from 1 sent to 2
+time: 11
+Transmitting packet from 4 sent to 1
+time: 18
+Transmitting packet from 1 sent to 2
+time: 11
+Transmitting packet from 3 sent to 2
+time: 236
+Transmitting packet from 4 sent to 1
+time: 12
+Transmitting packet from 3 sent to 2
+time: 14
+Transmitting packet from 3 sent to 2
+time: 17
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 1 sent to 2
+time: 315
+Transmitting packet from 4 sent to 1
+time: 15
+Transmitting packet from 3 sent to 2
+time: 14
+Transmitting packet from 1 sent to 2
+time: 104
+Transmitting packet from 3 sent to 2
+time: 14
+Transmitting packet from 4 sent to 1
+time: 17
+Transmitting packet from 1 sent to 2
+time: 145
+Transmitting packet from 4 sent to 1
+time: 17
+Transmitting packet from 3 sent to 2
+time: 117
+Transmitting packet from 1 sent to 2
+Transmitting packet from 4 sent to 1
+time: 153
+time: 17
+Transmitting packet from 3 sent to 2
+time: 117
+Transmitting packet from 4 sent to 1
+time: 14
+Transmitting packet from 1 sent to 2
+time: 154
+Transmitting packet from 4 sent to 1
+time: 15
+Transmitting packet from 3 sent to 2
+Transmitting packet from 4 sent to 1
+time: 187
+time: 12
+Transmitting packet from 1 sent to 2
+time: 151
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 1 sent to 2
+time: 121
+Transmitting packet from 3 sent to 2
+time: 133
+Transmitting packet from 4 sent to 1
+time: 12
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 1 sent to 2
+time: 157
+Transmitting packet from 3 sent to 2
+time: 286
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 1 sent to 2
+time: 114
+Transmitting packet from 3 sent to 2
+time: 110
+Transmitting packet from 4 sent to 1
+time: 15
+Transmitting packet from 1 sent to 2
+time: 159
+Transmitting packet from 4 sent to 1
+time: 14
+Transmitting packet from 3 sent to 2
+time: 117
+Transmitting packet from 1 sent to 2
+time: 148
+Transmitting packet from 4 sent to 1
+time: 28
+Transmitting packet from 3 sent to 2
+time: 118
+Transmitting packet from 4 sent to 1
+time: 15
+Transmitting packet from 1 sent to 2
+time: 167
+Transmitting packet from 3 sent to 2
+time: 43
+Transmitting packet from 4 sent to 1
+time: 15
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 1 sent to 2
+time: 209
+Transmitting packet from 3 sent to 2
+time: 166
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 1 sent to 2
+time: 151
+Transmitting packet from 3 sent to 2
+time: 198
+Transmitting packet from 4 sent to 1
+time: 15
+Transmitting packet from 4 sent to 1
+time: 15
+Transmitting packet from 1 sent to 2
+time: 172
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 15
+Transmitting packet from 1 sent to 2
+time: 88
+Transmitting packet from 4 sent to 1
+time: 17
+Transmitting packet from 4 sent to 1
+time: 13
+Transmitting packet from 4 sent to 1
+time: 14
+Transmitting packet from 4 sent to 1
+time: 13
+Transmitting packet from 4 sent to 1
+time: 12
+Transmitting packet from 4 sent to 1
+time: 12
+Transmitting packet from 4 sent to 1
+time: 12
+Transmitting packet from 4 sent to 1
+time: 12
+Transmitting packet from 4 sent to 1
+time: 12
+Transmitting packet from 4 sent to 1
+time: 12
+Transmitting packet from 4 sent to 1
+time: 15
+Transmitting packet from 4 sent to 1
+time: 18
+Transmitting packet from 4 sent to 1
+time: 12
+Transmitting packet from 4 sent to 1
+time: 12
+Transmitting packet from 4 sent to 1
+time: 12
+Transmitting packet from 4 sent to 1
+time: 12
+Transmitting packet from 4 sent to 1
+time: 13
+Transmitting packet from 4 sent to 1
+time: 12
+Transmitting packet from 4 sent to 1
+time: 12
+Transmitting packet from 3 sent to 2
+time: 3687
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 15
+Transmitting packet from 1 sent to 2
+time: 3579
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 3 sent to 2
+time: 481
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 1 sent to 2
+time: 540
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 17
+Transmitting packet from 3 sent to 2
+time: 474
+Transmitting packet from 4 sent to 1
+time: 17
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 1 sent to 2
+time: 464
+Transmitting packet from 4 sent to 1
+time: 15
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 3 sent to 2
+time: 452
+Transmitting packet from 4 sent to 1
+time: 17
+Transmitting packet from 4 sent to 1
+time: 15
+Transmitting packet from 1 sent to 2
+time: 453
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 3 sent to 2
+time: 542
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 15
+Transmitting packet from 1 sent to 2
+time: 499
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 15
+Transmitting packet from 3 sent to 2
+time: 483
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 15
+Transmitting packet from 1 sent to 2
+time: 493
+Transmitting packet from 4 sent to 1
+time: 15
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 3 sent to 2
+time: 476
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 1 sent to 2
+time: 504
+Transmitting packet from 3 sent to 2
+time: 426
+Transmitting packet from 1 sent to 2
+time: 402
+Transmitting packet from 3 sent to 2
+time: 405
+Transmitting packet from 1 sent to 2
+time: 391
+Transmitting packet from 3 sent to 2
+time: 383
+Transmitting packet from 1 sent to 2
+time: 357
+Transmitting packet from 3 sent to 2
+time: 311
+Transmitting packet from 1 sent to 2
+time: 276
+Transmitting packet from 3 sent to 2
+time: 356
+Transmitting packet from 1 sent to 2
+time: 362
+Transmitting packet from 3 sent to 2
+time: 362
+Transmitting packet from 1 sent to 2
+time: 366
+Transmitting packet from 3 sent to 2
+time: 335
+Transmitting packet from 1 sent to 2
+time: 292
+Transmitting packet from 3 sent to 2
+time: 384
+Transmitting packet from 1 sent to 2
+time: 359
+Transmitting packet from 3 sent to 2
+time: 311
+Transmitting packet from 1 sent to 2
+time: 298
+Transmitting packet from 3 sent to 2
+time: 395
+Transmitting packet from 1 sent to 2
+time: 389
+Transmitting packet from 3 sent to 2
+time: 334
+Transmitting packet from 1 sent to 2
+time: 278
+Transmitting packet from 3 sent to 2
+time: 328
+Transmitting packet from 1 sent to 2
+time: 281
+Transmitting packet from 3 sent to 2
+time: 355
+Transmitting packet from 1 sent to 2
+time: 393
+Transmitting packet from 3 sent to 2
+time: 355
+Transmitting packet from 1 sent to 2
+time: 285
+Transmitting packet from 3 sent to 2
+time: 367
+Transmitting packet from 1 sent to 2
+time: 373
+Transmitting packet from 3 sent to 2
+time: 344
+Transmitting packet from 1 sent to 2
+time: 289
+Transmitting packet from 3 sent to 2
+time: 387
+Transmitting packet from 1 sent to 2
+time: 396
+Transmitting packet from 3 sent to 2
+time: 384
+Transmitting packet from 1 sent to 2
+time: 391
+Transmitting packet from 3 sent to 2
+time: 1552
+Transmitting packet from 1 sent to 2
+time: 503
+Transmitting packet from 3 sent to 2
+time: 457
+Transmitting packet from 1 sent to 2
+time: 413
+Transmitting packet from 3 sent to 2
+time: 322
+Transmitting packet from 1 sent to 2
+time: 281
+Transmitting packet from 3 sent to 2
+time: 366
+Transmitting packet from 1 sent to 2
+time: 382
+Transmitting packet from 3 sent to 2
+time: 1183
+Transmitting packet from 1 sent to 2
+time: 1211
+Transmitting packet from 3 sent to 2
+time: 416
+Transmitting packet from 1 sent to 2
+time: 380
+Transmitting packet from 3 sent to 2
+time: 326
+Transmitting packet from 1 sent to 2
+time: 304
+Transmitting packet from 3 sent to 2
+time: 395
+Transmitting packet from 1 sent to 2
+time: 375
+Transmitting packet from 3 sent to 2
+time: 331
+Transmitting packet from 1 sent to 2
+time: 289
+Transmitting packet from 3 sent to 2
+time: 812
+Transmitting packet from 1 sent to 2
+time: 828
+Transmitting packet from 3 sent to 2
+time: 356
+Transmitting packet from 1 sent to 2
+time: 303
+Transmitting packet from 3 sent to 2
+time: 1689
+Transmitting packet from 1 sent to 2
+time: 1711
+Transmitting packet from 3 sent to 2
+time: 406
+Transmitting packet from 1 sent to 2
+time: 386
+Transmitting packet from 3 sent to 2
+time: 359
+Transmitting packet from 1 sent to 2
+time: 323
+Transmitting packet from 3 sent to 2
+time: 336
+Transmitting packet from 1 sent to 2
+time: 380
+Transmitting packet from 3 sent to 2
+time: 380
+Transmitting packet from 1 sent to 2
+time: 375
+Transmitting packet from 3 sent to 2
+time: 347
+Transmitting packet from 1 sent to 2
+time: 334
+Transmitting packet from 3 sent to 2
+time: 360
+Transmitting packet from 1 sent to 2
+time: 372
+Transmitting packet from 3 sent to 2
+time: 403
+Transmitting packet from 1 sent to 2
+time: 394
+Transmitting packet from 3 sent to 2
+time: 459
+Transmitting packet from 1 sent to 2
+time: 422
+Transmitting packet from 3 sent to 2
+time: 384
+Transmitting packet from 1 sent to 2
+time: 355
+Transmitting packet from 3 sent to 2
+time: 389
+Transmitting packet from 1 sent to 2
+time: 456
+Transmitting packet from 3 sent to 2
+time: 463
+Transmitting packet from 1 sent to 2
+time: 397
+Transmitting packet from 3 sent to 2
+time: 408
+Transmitting packet from 1 sent to 2
+time: 402
+Transmitting packet from 3 sent to 2
+time: 390
+Transmitting packet from 1 sent to 2
+time: 384
+Transmitting packet from 3 sent to 2
+time: 388
+Transmitting packet from 1 sent to 2
+time: 399
+Transmitting packet from 3 sent to 2
+time: 427
+Transmitting packet from 1 sent to 2
+time: 356
+Transmitting packet from 3 sent to 2
+time: 424
+Transmitting packet from 1 sent to 2
+time: 424
+Transmitting packet from 3 sent to 2
+time: 377
+Transmitting packet from 1 sent to 2
+time: 350
+Transmitting packet from 3 sent to 2
+time: 385
+Transmitting packet from 1 sent to 2
+time: 518
+Transmitting packet from 2 sent to 3
+time: 31264527
+Transmitting packet from 2 sent to 3
+time: 19
+Transmitting packet from 3 sent to 2
+time: 1007
+Transmitting packet from 2 sent to 3
+time: 13
+Transmitting packet from 1 sent to 2
+time: 1029
+Transmitting packet from 3 sent to 2
+time: 406
+Transmitting packet from 2 sent to 3
+time: 15
+Transmitting packet from 2 sent to 3
+time: 10
+Transmitting packet from 1 sent to 4
+time: 31254187
+Transmitting packet from 2 sent to 3
+Transmitting packet from 1 sent to 2
+time: 16
+time: 566
+Transmitting packet from 1 sent to 4
+time: 21
+Transmitting packet from 3 sent to 2
+time: 553
+Transmitting packet from 1 sent to 2
+time: 338
+Transmitting packet from 3 sent to 2
+time: 319
+Transmitting packet from 2 sent to 3
+time: 15
+Transmitting packet from 1 sent to 2
+time: 303
+Transmitting packet from 3 sent to 2
+time: 356
+Transmitting packet from 2 sent to 3
+time: 22
+Transmitting packet from 2 sent to 3
+time: 15
+Transmitting packet from 2 sent to 3
+time: 16
+Transmitting packet from 2 sent to 3
+time: 11
+Transmitting packet from 1 sent to 2
+time: 1157
+Transmitting packet from 1 sent to 4
+time: 1674
+Transmitting packet from 2 sent to 3
+time: 21
+Transmitting packet from 1 sent to 4
+time: 17
+Transmitting packet from 1 sent to 4
+time: 19
+Transmitting packet from 2 sent to 3
+time: 20
+Transmitting packet from 1 sent to 4
+time: 18
+Transmitting packet from 2 sent to 3
+time: 21
+Transmitting packet from 1 sent to 4
+time: 16
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 2 sent to 3
+time: 35
+Transmitting packet from 1 sent to 4
+time: 16
+Transmitting packet from 1 sent to 4
+time: 15
+Transmitting packet from 2 sent to 3
+time: 19
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 2 sent to 3
+time: 19
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 2 sent to 3
+time: 19
+Transmitting packet from 1 sent to 4
+time: 15
+Transmitting packet from 1 sent to 4
+time: 16
+Transmitting packet from 2 sent to 3
+time: 19
+Transmitting packet from 1 sent to 4
+time: 11
+Transmitting packet from 2 sent to 3
+time: 20
+Transmitting packet from 1 sent to 4
+time: 11
+Transmitting packet from 2 sent to 3
+time: 19
+Transmitting packet from 1 sent to 4
+time: 11
+Transmitting packet from 2 sent to 3
+time: 19
+Transmitting packet from 1 sent to 4
+time: 10
+Transmitting packet from 2 sent to 3
+time: 21
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 2 sent to 3
+time: 24
+Transmitting packet from 1 sent to 4
+time: 16
+Transmitting packet from 2 sent to 3
+time: 16
+Transmitting packet from 1 sent to 4
+time: 15
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 2 sent to 3
+time: 19
+Transmitting packet from 1 sent to 4
+time: 16
+Transmitting packet from 2 sent to 3
+time: 21
+Transmitting packet from 1 sent to 4
+time: 11
+Transmitting packet from 2 sent to 3
+time: 20
+Transmitting packet from 1 sent to 4
+time: 11
+Transmitting packet from 2 sent to 3
+time: 19
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 2 sent to 3
+time: 19
+Transmitting packet from 1 sent to 4
+time: 17
+Transmitting packet from 2 sent to 3
+time: 19
+Transmitting packet from 1 sent to 4
+time: 11
+Transmitting packet from 2 sent to 3
+time: 20
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 2 sent to 3
+time: 19
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 2 sent to 3
+time: 16
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 2 sent to 3
+time: 13
+Transmitting packet from 1 sent to 4
+time: 456
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 2 sent to 3
+time: 17
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 2 sent to 3
+time: 16
+Transmitting packet from 1 sent to 4
+time: 210
+Transmitting packet from 2 sent to 3
+time: 19
+Transmitting packet from 1 sent to 4
+time: 189
+Transmitting packet from 2 sent to 3
+time: 17
+Transmitting packet from 2 sent to 3
+time: 16
+Transmitting packet from 1 sent to 4
+time: 336
+Transmitting packet from 2 sent to 3
+time: 15
+Transmitting packet from 2 sent to 3
+time: 13
+Transmitting packet from 2 sent to 3
+time: 12
+Transmitting packet from 1 sent to 4
+time: 392
+Transmitting packet from 2 sent to 3
+time: 13
+Transmitting packet from 2 sent to 3
+time: 12
+Transmitting packet from 1 sent to 4
+time: 298
+Transmitting packet from 2 sent to 3
+time: 13
+Transmitting packet from 2 sent to 3
+time: 28
+Transmitting packet from 2 sent to 3
+time: 17
+Transmitting packet from 1 sent to 4
+time: 378
+Transmitting packet from 2 sent to 3
+time: 19
+Transmitting packet from 2 sent to 3
+time: 30
+Transmitting packet from 1 sent to 4
+time: 400
+Transmitting packet from 2 sent to 3
+time: 32
+Transmitting packet from 2 sent to 3
+time: 33
+Transmitting packet from 1 sent to 4
+time: 417
+Transmitting packet from 2 sent to 3
+time: 26
+Transmitting packet from 2 sent to 3
+time: 23
+Transmitting packet from 2 sent to 3
+time: 18
+Transmitting packet from 1 sent to 4
+time: 636
+Transmitting packet from 2 sent to 3
+time: 252
+Transmitting packet from 2 sent to 3
+time: 29
+Transmitting packet from 2 sent to 3
+time: 22
+Transmitting packet from 1 sent to 4
+time: 347
+Transmitting packet from 2 sent to 3
+time: 22
+Transmitting packet from 2 sent to 3
+time: 14
+Transmitting packet from 2 sent to 3
+time: 16
+Transmitting packet from 2 sent to 3
+time: 15
+Transmitting packet from 1 sent to 4
+time: 604
+Transmitting packet from 2 sent to 3
+time: 17
+Transmitting packet from 2 sent to 3
+time: 14
+Transmitting packet from 2 sent to 3
+time: 13
+Transmitting packet from 2 sent to 3
+time: 15
+Transmitting packet from 1 sent to 4
+time: 402
+Transmitting packet from 2 sent to 3
+time: 16
+Transmitting packet from 2 sent to 3
+time: 15
+Transmitting packet from 2 sent to 3
+time: 14
+Transmitting packet from 1 sent to 4
+time: 375
+Transmitting packet from 2 sent to 3
+time: 18
+Transmitting packet from 2 sent to 3
+time: 15
+Transmitting packet from 2 sent to 3
+time: 15
+Transmitting packet from 2 sent to 3
+time: 15
+Transmitting packet from 1 sent to 4
+time: 411
+Transmitting packet from 2 sent to 3
+time: 13
+Transmitting packet from 2 sent to 3
+time: 16
+Transmitting packet from 2 sent to 3
+time: 15
+Transmitting packet from 2 sent to 3
+time: 16
+Transmitting packet from 1 sent to 4
+time: 490
+Transmitting packet from 2 sent to 3
+time: 15
+Transmitting packet from 2 sent to 3
+time: 13
+Transmitting packet from 1 sent to 4
+time: 255
+Transmitting packet from 2 sent to 3
+time: 13
+Transmitting packet from 2 sent to 3
+time: 33
+Transmitting packet from 2 sent to 3
+time: 16
+Transmitting packet from 1 sent to 4
+time: 284
+Transmitting packet from 2 sent to 3
+time: 17
+Transmitting packet from 2 sent to 3
+time: 17
+Transmitting packet from 2 sent to 3
+time: 17
+Transmitting packet from 1 sent to 4
+time: 293
+Transmitting packet from 2 sent to 3
+time: 17
+Transmitting packet from 2 sent to 3
+time: 17
+Transmitting packet from 1 sent to 4
+time: 223
+Transmitting packet from 2 sent to 3
+time: 18
+Transmitting packet from 2 sent to 3
+time: 16
+Transmitting packet from 2 sent to 3
+time: 17
+Transmitting packet from 1 sent to 4
+time: 357
+Transmitting packet from 2 sent to 3
+time: 18
+Transmitting packet from 2 sent to 3
+time: 16
+Transmitting packet from 1 sent to 4
+time: 185
+Transmitting packet from 2 sent to 3
+time: 18
+Transmitting packet from 2 sent to 3
+time: 17
+Transmitting packet from 2 sent to 3
+time: 16
+Transmitting packet from 1 sent to 4
+time: 261
+Transmitting packet from 1 sent to 4
+time: 126
+Transmitting packet from 1 sent to 4
+time: 77
+Transmitting packet from 1 sent to 4
+time: 68
+Transmitting packet from 1 sent to 4
+time: 71
+Transmitting packet from 1 sent to 4
+time: 163
+Transmitting packet from 1 sent to 4
+time: 75
+Transmitting packet from 1 sent to 4
+time: 83
+Transmitting packet from 1 sent to 4
+time: 82
+Transmitting packet from 1 sent to 4
+time: 142
+Transmitting packet from 2 sent to 3
+time: 2038
+Transmitting packet from 1 sent to 4
+time: 370
+Transmitting packet from 2 sent to 3
+time: 367
+Transmitting packet from 1 sent to 4
+time: 369
+Transmitting packet from 2 sent to 3
+time: 369
+Transmitting packet from 1 sent to 4
+time: 356
+Transmitting packet from 2 sent to 3
+time: 351
+Transmitting packet from 1 sent to 4
+time: 436
+Transmitting packet from 2 sent to 3
+time: 465
+Transmitting packet from 1 sent to 4
+time: 235
+Transmitting packet from 1 sent to 4
+time: 120
+Transmitting packet from 1 sent to 4
+time: 123
+Transmitting packet from 1 sent to 4
+time: 90
+Transmitting packet from 1 sent to 4
+time: 87
+Transmitting packet from 1 sent to 4
+time: 91
+Transmitting packet from 1 sent to 4
+time: 92
+Transmitting packet from 1 sent to 4
+time: 82
+Transmitting packet from 1 sent to 4
+time: 265
+Transmitting packet from 1 sent to 4
+time: 20
+Transmitting packet from 1 sent to 4
+time: 19
+Transmitting packet from 1 sent to 4
+time: 216
+Transmitting packet from 1 sent to 4
+time: 108
+Transmitting packet from 1 sent to 4
+time: 105
+Transmitting packet from 1 sent to 4
+time: 104
+Transmitting packet from 1 sent to 4
+time: 146
+Transmitting packet from 1 sent to 4
+time: 158
+Transmitting packet from 1 sent to 4
+time: 137
+Transmitting packet from 1 sent to 4
+time: 119
+Transmitting packet from 1 sent to 4
+time: 183
+Transmitting packet from 1 sent to 4
+time: 114
+Transmitting packet from 1 sent to 4
+time: 285
+Transmitting packet from 1 sent to 4
+time: 91
+Transmitting packet from 1 sent to 4
+time: 143
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 1 sent to 4
+time: 138
+Transmitting packet from 1 sent to 4
+time: 83
+Transmitting packet from 1 sent to 4
+time: 81
+Transmitting packet from 1 sent to 4
+time: 85
+Transmitting packet from 1 sent to 4
+time: 67
+Transmitting packet from 1 sent to 4
+time: 74
+Transmitting packet from 4 sent to 1
+time: 1940267
+Transmitting packet from 3 sent to 1
+time: 1909088
+Transmitting packet from 4 sent to 1
+time: 694
+Transmitting packet from 3 sent to 1
+time: 1419
+Transmitting packet from 4 sent to 1
+time: 1481
+Transmitting packet from 4 sent to 1
+time: 22
+Transmitting packet from 3 sent to 1
+time: 28
+Transmitting packet from 3 sent to 1
+time: 18
+Transmitting packet from 4 sent to 1
+time: 4263
+Transmitting packet from 4 sent to 1
+time: 25
+Transmitting packet from 4 sent to 1
+time: 18
+Transmitting packet from 3 sent to 1
+time: 1103
+Transmitting packet from 4 sent to 1
+time: 18
+Transmitting packet from 3 sent to 1
+time: 17
+Transmitting packet from 4 sent to 1
+time: 17
+Transmitting packet from 3 sent to 1
+time: 15
+Transmitting packet from 3 sent to 1
+time: 12
+Transmitting packet from 3 sent to 1
+time: 17
+Transmitting packet from 4 sent to 1
+time: 476
+Transmitting packet from 3 sent to 1
+time: 351
+Transmitting packet from 4 sent to 1
+time: 692
+Transmitting packet from 3 sent to 1
+time: 724
+Transmitting packet from 4 sent to 1
+time: 649
+Transmitting packet from 3 sent to 1
+time: 652
+Transmitting packet from 4 sent to 1
+time: 633
+Transmitting packet from 3 sent to 1
+time: 634
+Transmitting packet from 4 sent to 1
+time: 706
+Transmitting packet from 3 sent to 1
+time: 798
+Transmitting packet from 4 sent to 1
+time: 564
+Transmitting packet from 3 sent to 1
+time: 558
+Transmitting packet from 4 sent to 1
+time: 623
+Transmitting packet from 3 sent to 1
+time: 701
+Transmitting packet from 4 sent to 1
+time: 696
+Transmitting packet from 3 sent to 1
+time: 653
+Transmitting packet from 4 sent to 1
+time: 638
+Transmitting packet from 3 sent to 1
+time: 776
+Transmitting packet from 4 sent to 1
+time: 582
+Transmitting packet from 3 sent to 1
+time: 578
+Transmitting packet from 4 sent to 1
+time: 692
+Transmitting packet from 3 sent to 1
+time: 766
+Transmitting packet from 4 sent to 1
+time: 631
+Transmitting packet from 3 sent to 1
+time: 630
+Transmitting packet from 4 sent to 1
+time: 629
+Transmitting packet from 3 sent to 1
+time: 624
+Transmitting packet from 4 sent to 1
+time: 703
+Transmitting packet from 3 sent to 1
+time: 712
+Transmitting packet from 4 sent to 1
+time: 752
+Transmitting packet from 3 sent to 1
+time: 879
+Transmitting packet from 4 sent to 1
+time: 593
+Transmitting packet from 3 sent to 1
+time: 581
+Transmitting packet from 4 sent to 1
+time: 676
+Transmitting packet from 3 sent to 1
+time: 745
+Transmitting packet from 4 sent to 1
+time: 647
+Transmitting packet from 3 sent to 1
+time: 641
+Transmitting packet from 4 sent to 1
+time: 582
+Transmitting packet from 3 sent to 1
+time: 581
+Transmitting packet from 4 sent to 1
+time: 617
+Transmitting packet from 3 sent to 1
+time: 624
+Transmitting packet from 4 sent to 1
+time: 626
+Transmitting packet from 3 sent to 1
+time: 632
+Transmitting packet from 4 sent to 1
+time: 616
+Transmitting packet from 3 sent to 1
+time: 639
+Transmitting packet from 4 sent to 1
+time: 648
+Transmitting packet from 3 sent to 1
+time: 626
+Transmitting packet from 4 sent to 1
+time: 615
+Transmitting packet from 3 sent to 1
+time: 619
+Transmitting packet from 4 sent to 1
+time: 613
+Transmitting packet from 3 sent to 1
+time: 610
+Transmitting packet from 4 sent to 1
+time: 634
+Transmitting packet from 3 sent to 1
+time: 635
+Transmitting packet from 4 sent to 1
+time: 618
+Transmitting packet from 3 sent to 1
+time: 609
+Transmitting packet from 4 sent to 1
+time: 641
+Transmitting packet from 3 sent to 1
+time: 645
+Transmitting packet from 4 sent to 1
+time: 991
+Transmitting packet from 3 sent to 1
+time: 1004
+Transmitting packet from 4 sent to 1
+time: 616
+Transmitting packet from 3 sent to 1
+time: 605
+Transmitting packet from 4 sent to 1
+time: 734
+Transmitting packet from 3 sent to 1
+time: 749
+Transmitting packet from 4 sent to 1
+time: 566
+Transmitting packet from 3 sent to 1
+time: 534
+Transmitting packet from 4 sent to 1
+time: 646
+Transmitting packet from 3 sent to 1
+time: 651
+Transmitting packet from 4 sent to 1
+time: 612
+Transmitting packet from 3 sent to 1
+time: 609
+Transmitting packet from 4 sent to 1
+time: 622
+Transmitting packet from 3 sent to 1
+time: 619
+Transmitting packet from 4 sent to 1
+time: 616
+Transmitting packet from 3 sent to 1
+time: 619
+Transmitting packet from 4 sent to 1
+time: 616
+Transmitting packet from 3 sent to 1
+time: 624
+Transmitting packet from 4 sent to 1
+time: 646
+Transmitting packet from 3 sent to 1
+time: 648
+Transmitting packet from 4 sent to 1
+time: 753
+Transmitting packet from 3 sent to 1
+time: 739
+Transmitting packet from 4 sent to 1
+time: 640
+Transmitting packet from 3 sent to 1
+time: 636
+Transmitting packet from 4 sent to 1
+time: 708
+Transmitting packet from 3 sent to 1
+time: 713
+Transmitting packet from 4 sent to 1
+time: 632
+Transmitting packet from 3 sent to 1
+time: 797
+Transmitting packet from 4 sent to 1
+time: 803
+Transmitting packet from 3 sent to 1
+time: 744
+Transmitting packet from 4 sent to 1
+time: 620
+Transmitting packet from 3 sent to 1
+time: 615
+Transmitting packet from 4 sent to 1
+time: 636
+Transmitting packet from 3 sent to 1
+time: 637
+Transmitting packet from 4 sent to 1
+time: 707
+Transmitting packet from 3 sent to 1
+time: 711
+Transmitting packet from 4 sent to 1
+time: 625
+Transmitting packet from 3 sent to 1
+time: 621
+Transmitting packet from 4 sent to 1
+time: 751
+Transmitting packet from 3 sent to 1
+time: 761
+Transmitting packet from 4 sent to 1
+time: 597
+Transmitting packet from 3 sent to 1
+time: 586
+Transmitting packet from 4 sent to 1
+time: 617
+Transmitting packet from 3 sent to 1
+time: 619
+Transmitting packet from 4 sent to 1
+time: 615
+Transmitting packet from 3 sent to 1
+time: 618
+Transmitting packet from 4 sent to 1
+time: 613
+Transmitting packet from 3 sent to 1
+time: 619
+Transmitting packet from 4 sent to 1
+time: 792
+Transmitting packet from 3 sent to 1
+time: 860
+Transmitting packet from 4 sent to 1
+time: 858
+Transmitting packet from 3 sent to 1
+time: 845
+Transmitting packet from 4 sent to 1
+time: 896
+Transmitting packet from 3 sent to 1
+time: 896
+Transmitting packet from 4 sent to 1
+time: 990
+Transmitting packet from 3 sent to 1
+time: 990
+Transmitting packet from 4 sent to 1
+time: 937
+Transmitting packet from 3 sent to 1
+time: 936
+Transmitting packet from 4 sent to 1
+time: 996
+Transmitting packet from 3 sent to 1
+time: 1005
+Transmitting packet from 4 sent to 1
+time: 729
+Transmitting packet from 3 sent to 1
+time: 731
+Transmitting packet from 4 sent to 1
+time: 917
+Transmitting packet from 3 sent to 1
+time: 930
+Transmitting packet from 4 sent to 1
+time: 5494
+Transmitting packet from 4 sent to 1
+time: 24
+Transmitting packet from 3 sent to 1
+time: 5564
+Transmitting packet from 4 sent to 1
+time: 17
+Transmitting packet from 4 sent to 1
+time: 18
+Transmitting packet from 3 sent to 1
+time: 150
+Transmitting packet from 4 sent to 1
+time: 17
+Transmitting packet from 3 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 19
+Transmitting packet from 3 sent to 1
+time: 137
+Transmitting packet from 4 sent to 1
+time: 17
+Transmitting packet from 3 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 17
+Transmitting packet from 3 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 17
+Transmitting packet from 3 sent to 1
+time: 12
+Transmitting packet from 4 sent to 1
+time: 17
+Transmitting packet from 3 sent to 1
+time: 13
+Transmitting packet from 3 sent to 1
+time: 12
+Transmitting packet from 3 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 1094
+Transmitting packet from 3 sent to 1
+time: 1030
+Transmitting packet from 4 sent to 1
+time: 890
+Transmitting packet from 3 sent to 1
+time: 886
+Transmitting packet from 4 sent to 1
+time: 873
+Transmitting packet from 3 sent to 1
+time: 894
+Transmitting packet from 4 sent to 1
+time: 792
+Transmitting packet from 3 sent to 1
+time: 798
+Transmitting packet from 4 sent to 1
+time: 837
+Transmitting packet from 3 sent to 1
+time: 818
+Transmitting packet from 4 sent to 1
+time: 856
+Transmitting packet from 3 sent to 1
+time: 999
+Transmitting packet from 4 sent to 1
+time: 758
+Transmitting packet from 3 sent to 1
+time: 757
+Transmitting packet from 4 sent to 1
+time: 1046
+Transmitting packet from 3 sent to 1
+time: 1061
+Transmitting packet from 4 sent to 1
+time: 741
+Transmitting packet from 3 sent to 1
+time: 728
+Transmitting packet from 4 sent to 1
+time: 924
+Transmitting packet from 3 sent to 1
+time: 889
+Transmitting packet from 4 sent to 1
+time: 2803
+Transmitting packet from 4 sent to 1
+time: 16
+Transmitting packet from 4 sent to 1
+time: 15
+Transmitting packet from 3 sent to 1
+time: 2993
+Transmitting packet from 4 sent to 1
+time: 17
+Transmitting packet from 3 sent to 1
+time: 18
+Transmitting packet from 4 sent to 1
+time: 17
+Transmitting packet from 3 sent to 1
+time: 14
+Transmitting packet from 3 sent to 1
+time: 13
+Transmitting packet from 3 sent to 1
+time: 17
+Transmitting packet from 4 sent to 1
+time: 972
+Transmitting packet from 3 sent to 1
+time: 914
+Transmitting packet from 4 sent to 1
+time: 839
+Transmitting packet from 3 sent to 1
+time: 905
+Transmitting packet from 4 sent to 1
+time: 891
+Transmitting packet from 3 sent to 1
+time: 836
+Transmitting packet from 4 sent to 1
+time: 826
+Transmitting packet from 3 sent to 1
+time: 891
+Transmitting packet from 4 sent to 1
+time: 758
+Transmitting packet from 3 sent to 1
+time: 728
+Transmitting packet from 4 sent to 1
+time: 933
+Transmitting packet from 3 sent to 1
+time: 944
+Transmitting packet from 1 sent to 2
+time: 42282663
+Transmitting packet from 1 sent to 2
+time: 73
+Transmitting packet from 1 sent to 3
+time: 10987628
+Transmitting packet from 1 sent to 2
+time: 67
+Transmitting packet from 1 sent to 3
+time: 33
+Transmitting packet from 1 sent to 2
+time: 112
+Transmitting packet from 1 sent to 2
+time: 25
+Transmitting packet from 1 sent to 3
+time: 19
+Transmitting packet from 1 sent to 2
+time: 87
+Transmitting packet from 1 sent to 3
+time: 19
+Transmitting packet from 1 sent to 2
+time: 67
+Transmitting packet from 1 sent to 3
+time: 19
+Transmitting packet from 1 sent to 2
+time: 180
+Transmitting packet from 1 sent to 3
+time: 18
+Transmitting packet from 1 sent to 2
+time: 13
+Transmitting packet from 1 sent to 3
+time: 19
+Transmitting packet from 1 sent to 2
+time: 14
+Transmitting packet from 1 sent to 2
+time: 86
+Transmitting packet from 1 sent to 4
+time: 10981535
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 3
+time: 20
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 4
+time: 19
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 2
+time: 200
+Transmitting packet from 1 sent to 2
+time: 13
+Transmitting packet from 1 sent to 4
+time: 18
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 4
+time: 17
+Transmitting packet from 1 sent to 3
+time: 21
+Transmitting packet from 1 sent to 2
+time: 14
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 2
+time: 76
+Transmitting packet from 1 sent to 2
+time: 201
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 4
+time: 20
+Transmitting packet from 1 sent to 2
+time: 11
+Transmitting packet from 1 sent to 3
+time: 21
+Transmitting packet from 1 sent to 4
+time: 17
+Transmitting packet from 1 sent to 3
+time: 19
+Transmitting packet from 1 sent to 4
+time: 16
+Transmitting packet from 1 sent to 3
+time: 18
+Transmitting packet from 1 sent to 4
+time: 16
+Transmitting packet from 1 sent to 2
+Transmitting packet from 1 sent to 3
+time: 382
+time: 18
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 2
+time: 13
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 3
+Transmitting packet from 1 sent to 2
+time: 18
+time: 12
+Transmitting packet from 1 sent to 2
+Transmitting packet from 1 sent to 3
+time: 11
+time: 17
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 3
+time: 19
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 3
+time: 19
+Transmitting packet from 1 sent to 2
+time: 11
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 2
+time: 11
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 2
+time: 11
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 2
+time: 11
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 3
+time: 19
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 2
+time: 62
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 2
+time: 20
+Transmitting packet from 1 sent to 2
+time: 55
+Transmitting packet from 1 sent to 2
+time: 11
+Transmitting packet from 1 sent to 3
+time: 19
+Transmitting packet from 1 sent to 2
+time: 58
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 2
+time: 87
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 2
+time: 60
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 2
+time: 20
+Transmitting packet from 1 sent to 2
+time: 57
+Transmitting packet from 1 sent to 3
+time: 126
+Transmitting packet from 1 sent to 2
+time: 19
+Transmitting packet from 1 sent to 3
+time: 89
+Transmitting packet from 1 sent to 2
+time: 58
+Transmitting packet from 1 sent to 2
+time: 19
+Transmitting packet from 1 sent to 3
+time: 158
+Transmitting packet from 1 sent to 2
+time: 68
+Transmitting packet from 1 sent to 3
+time: 90
+Transmitting packet from 1 sent to 2
+time: 20
+Transmitting packet from 1 sent to 4
+time: 5213
+Transmitting packet from 1 sent to 2
+time: 56
+Transmitting packet from 1 sent to 3
+time: 141
+Transmitting packet from 1 sent to 4
+time: 18
+Transmitting packet from 1 sent to 2
+time: 22
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 2
+time: 59
+Transmitting packet from 1 sent to 4
+time: 15
+Transmitting packet from 1 sent to 3
+time: 158
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 4
+time: 16
+Transmitting packet from 1 sent to 3
+time: 21
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 56
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 3
+time: 142
+Transmitting packet from 1 sent to 2
+time: 26
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 3
+time: 32
+Transmitting packet from 1 sent to 2
+time: 100
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 4
+time: 16
+Transmitting packet from 1 sent to 3
+time: 154
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 4
+time: 15
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 3
+time: 143
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 2
+time: 63
+Transmitting packet from 1 sent to 3
+time: 41
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 20
+Transmitting packet from 1 sent to 4
+time: 11
+Transmitting packet from 1 sent to 2
+time: 57
+Transmitting packet from 1 sent to 3
+time: 163
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 22
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 2
+time: 56
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 17
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 3
+time: 142
+Transmitting packet from 1 sent to 4
+time: 15
+Transmitting packet from 1 sent to 2
+time: 61
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 2
+time: 13
+Transmitting packet from 1 sent to 3
+time: 139
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 2
+time: 94
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 2
+time: 11
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 3
+time: 141
+Transmitting packet from 1 sent to 2
+time: 11
+Transmitting packet from 1 sent to 4
+time: 15
+Transmitting packet from 1 sent to 2
+time: 24
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 1 sent to 3
+time: 140
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 58
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 3
+time: 139
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 2
+time: 92
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 16
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 3
+time: 145
+Transmitting packet from 1 sent to 2
+time: 11
+Transmitting packet from 1 sent to 4
+time: 15
+Transmitting packet from 1 sent to 2
+time: 27
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 3
+time: 140
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 2
+time: 64
+Transmitting packet from 1 sent to 3
+time: 32
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 2
+time: 20
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 1 sent to 3
+time: 123
+Transmitting packet from 1 sent to 2
+time: 84
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 12
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 3
+time: 155
+Transmitting packet from 1 sent to 2
+time: 58
+Transmitting packet from 1 sent to 4
+time: 17
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 2
+time: 61
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 11
+Transmitting packet from 1 sent to 3
+time: 300
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 2
+time: 21
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 2
+time: 58
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 3
+time: 280
+Transmitting packet from 1 sent to 2
+time: 31
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 4
+Transmitting packet from 1 sent to 2
+time: 13
+time: 89
+Transmitting packet from 1 sent to 2
+Transmitting packet from 1 sent to 4
+time: 12
+time: 13
+Transmitting packet from 1 sent to 3
+time: 279
+Transmitting packet from 1 sent to 2
+time: 13
+Transmitting packet from 1 sent to 4
+time: 17
+Transmitting packet from 1 sent to 3
+time: 32
+Transmitting packet from 1 sent to 4
+time: 16
+Transmitting packet from 1 sent to 3
+time: 18
+Transmitting packet from 1 sent to 4
+time: 15
+Transmitting packet from 1 sent to 3
+time: 19
+Transmitting packet from 1 sent to 4
+time: 49
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 4
+time: 14
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 4
+time: 10
+Transmitting packet from 1 sent to 3
+time: 18
+Transmitting packet from 1 sent to 4
+time: 15
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 4
+time: 10
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 4
+Transmitting packet from 1 sent to 3
+time: 10
+time: 14
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 4
+time: 9
+Transmitting packet from 1 sent to 3
+time: 18
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 1 sent to 3
+time: 14
+Transmitting packet from 1 sent to 4
+time: 12
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 4
+time: 11
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 4
+time: 10
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 4
+time: 64
+Transmitting packet from 1 sent to 3
+time: 18
+Transmitting packet from 1 sent to 3
+Transmitting packet from 1 sent to 4
+time: 16
+time: 12
+Transmitting packet from 1 sent to 4
+Transmitting packet from 1 sent to 3
+time: 10
+time: 17
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 4
+Transmitting packet from 1 sent to 3
+time: 13
+time: 20
+Transmitting packet from 1 sent to 4
+time: 11
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 4
+time: 10
+Transmitting packet from 1 sent to 3
+time: 17
+Transmitting packet from 1 sent to 4
+time: 13
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 4
+time: 11
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 4
+time: 11
+Transmitting packet from 1 sent to 3
+time: 13
+Transmitting packet from 1 sent to 4
+time: 11
+Transmitting packet from 1 sent to 3
+time: 12
+Transmitting packet from 1 sent to 4
+time: 10
+Transmitting packet from 1 sent to 3
+time: 16
+Transmitting packet from 1 sent to 4
+time: 10
+Transmitting packet from 1 sent to 3
+time: 15
+Transmitting packet from 1 sent to 4
+time: 11
+Transmitting packet from 1 sent to 4
+time: 7
+Transmitting packet from 1 sent to 4
+time: 6
+Transmitting packet from 1 sent to 4
+time: 6
+Transmitting packet from 1 sent to 4
+time: 7
+Transmitting packet from 1 sent to 4
+time: 6
+Transmitting packet from 1 sent to 4
+time: 6
+Transmitting packet from 1 sent to 4
+time: 5
+Transmitting packet from 1 sent to 4
+time: 6
+Transmitting packet from 1 sent to 4
+time: 6
+Transmitting packet from 1 sent to 4
+time: 6
+Transmitting packet from 1 sent to 4
+time: 6
+Transmitting packet from 1 sent to 4
+time: 9
+Transmitting packet from 1 sent to 4
+time: 8
+Transmitting packet from 1 sent to 4
+time: 8
+Transmitting packet from 1 sent to 4
+time: 8

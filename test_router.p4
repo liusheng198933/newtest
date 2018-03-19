@@ -28,6 +28,16 @@ header_type timestamp_t {
     }
 }
 
+header_type intrinsic_metadata_t {
+    fields {
+        mcast_grp : 4;
+        egress_rid : 4;
+        mcast_hash : 16;
+        lf_field_list : 32;
+        resubmit_flag : 16;
+    }
+}
+
 header_type circle_ct {
     fields {
         ct : 8;
@@ -52,6 +62,7 @@ header_type ipv4_t {
 }
 
 header timestamp_t pktTMP;
+metadata intrinsic_metadata_t intrinsic_metadata;
 metadata circle_ct circt;
 
 parser start {
@@ -80,32 +91,6 @@ parser parse_ethernet {
 
 header ipv4_t ipv4;
 
-field_list ipv4_checksum_list {
-        ipv4.version;
-        ipv4.ihl;
-        ipv4.diffserv;
-        ipv4.totalLen;
-        ipv4.identification;
-        ipv4.flags;
-        ipv4.fragOffset;
-        ipv4.ttl;
-        ipv4.protocol;
-        ipv4.srcAddr;
-        ipv4.dstAddr;
-}
-
-field_list_calculation ipv4_checksum {
-    input {
-        ipv4_checksum_list;
-    }
-    algorithm : csum16;
-    output_width : 16;
-}
-
-calculated_field ipv4.hdrChecksum  {
-    verify ipv4_checksum;
-    update ipv4_checksum;
-}
 
 parser parse_ipv4 {
     extract(ipv4);
@@ -129,13 +114,14 @@ field_list resubmit_FL {
 }
 
 action _resubmit() {
-    modify_field(circt.ct, circt.ct); //Metadata instances are initialized to 0 by default
+    modify_field(circt.ct, 1); //Metadata instances are initialized to 0 by default
     resubmit(resubmit_FL);
 }
 
 table ipv4_lpm {
     reads {
-        ipv4.dstAddr : lpm;
+        ipv4.srcAddr : ternary;
+        ipv4.dstAddr : ternary;
         pktTMP.tmp : range; // a..b
     }
     actions {

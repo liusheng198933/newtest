@@ -313,6 +313,10 @@ class ExerciseRunner:
                       switch = switchClass,
                       controller = None)
 
+        #sw = self.net.get('s1')
+        #sw.describe()
+        #sw.grpc_reconfigure(4)
+        #sw.describe()
         print "mininet ends"
 
 

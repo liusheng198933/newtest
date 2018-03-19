@@ -72,6 +72,27 @@ class SwitchConnection(object):
         else:
             self.client_stub.Write(request)
 
+
+    def WriteTableEntryMulti(self, table_entry_list, update_flag_list, dry_run=False, ):
+        request = p4runtime_pb2.WriteRequest()
+        request.device_id = self.device_id
+        #print request
+        #print request.device_id
+        for i in range(len(table_entry_list)):
+            update = request.updates.add()
+            if update_flag_list[i] == 0:
+                update.type = p4runtime_pb2.Update.INSERT
+            if update_flag_list[i] == 1:
+                update.type = p4runtime_pb2.Update.DELETE
+            if update_flag_list[i] == 2:
+                update.type = p4runtime_pb2.Update.MODIFY
+            update.entity.table_entry.CopyFrom(table_entry_list[i])
+        if dry_run:
+            print "P4 Runtime Write:", request
+        else:
+            self.client_stub.Write(request)
+
+
     def ReadTableEntries(self, table_id=None, dry_run=False):
         request = p4runtime_pb2.ReadRequest()
         request.device_id = self.device_id

@@ -17,7 +17,7 @@ action_default = 0
 priority_default = 100
 
 
-def table_entry_construct(p4info_helper, dst_ip_addr, rtmp, ttmp, out_port, action_flag=action_default, priority=priority_default):
+def table_entry_construct(p4info_helper, dst_ip_addr, ip_addr_mask, rtmp, ttmp, out_port, action_flag=action_default, priority=priority_default):
     if action_flag < 0 or action_flag > 2:
         print "no corresponding action"
         return 0
@@ -31,7 +31,7 @@ def table_entry_construct(p4info_helper, dst_ip_addr, rtmp, ttmp, out_port, acti
         table_entry = p4info_helper.buildTableEntry(
             table_name="ipv4_lpm",
             match_fields={
-                "ipv4.dstAddr": (dst_ip_addr, 24),
+                "ipv4.dstAddr": (dst_ip_addr, ip_addr_mask),
                 "pktTMP.tmp": (rtmp_list[0], rtmp_list[1]),
             },
             priority = priority,
@@ -45,7 +45,7 @@ def table_entry_construct(p4info_helper, dst_ip_addr, rtmp, ttmp, out_port, acti
         table_entry = p4info_helper.buildTableEntry(
             table_name="ipv4_lpm",
             match_fields={
-                "ipv4.dstAddr": (dst_ip_addr, 24),
+                "ipv4.dstAddr": (dst_ip_addr, ip_addr_mask),
                 "pktTMP.tmp": (rtmp_list[0], rtmp_list[1]),
             },
             priority = priority,
@@ -55,7 +55,7 @@ def table_entry_construct(p4info_helper, dst_ip_addr, rtmp, ttmp, out_port, acti
         table_entry = p4info_helper.buildTableEntry(
             table_name="ipv4_lpm",
             match_fields={
-                "ipv4.dstAddr": (dst_ip_addr, 24),
+                "ipv4.dstAddr": (dst_ip_addr, ip_addr_mask),
                 "pktTMP.tmp": (rtmp_list[0], rtmp_list[1]),
             },
             priority = priority,
@@ -64,7 +64,7 @@ def table_entry_construct(p4info_helper, dst_ip_addr, rtmp, ttmp, out_port, acti
     return table_entry
 
 
-def writeRules(p4info_helper, sw_id, dst_ip_addr, rtmp, ttmp, out_port, action_flag=action_default, priority=priority_default, update_flag_write=0):
+def writeRules(p4info_helper, sw_id, dst_ip_addr, ip_addr_mask, rtmp, ttmp, out_port, action_flag=action_default, priority=priority_default, update_flag_write=0):
     # the rule of priority: smaller is more priority
     '''
     Installs three rules:
@@ -85,9 +85,18 @@ def writeRules(p4info_helper, sw_id, dst_ip_addr, rtmp, ttmp, out_port, action_f
     '''
     # 1) Tunnel Ingress Rule
 
-    table_entry = table_entry_construct(p4info_helper, dst_ip_addr, rtmp, ttmp, out_port, action_flag, priority)
+    table_entry = table_entry_construct(p4info_helper, dst_ip_addr, ip_addr_mask, rtmp, ttmp, out_port, action_flag, priority)
     sw_id.WriteTableEntry(table_entry,update_flag=update_flag_write)
     print "Installed ingress tunnel rule on %s" % sw_id.name
+
+
+def writeMultiRules(p4info_helper, sw_id, dst_ip_addr_list, ip_addr_mask_list, rtmp_list, ttmp_list, out_port_list, action_flag_list, priority_list, update_flag_write_list):
+    # the rule of priority: smaller is more priority
+    table_entry_list = []
+    for i in range(len(dst_ip_addr_list)):
+        table_entry_list.append(table_entry_construct(p4info_helper, dst_ip_addr_list[i], ip_addr_mask_list[i], rtmp_list[i], ttmp_list[i], out_port_list[i], action_flag_list[i], priority_list[i]))
+    sw_id.WriteTableEntryMulti(table_entry_list,update_flag_list=update_flag_write_list)
+    print "Installed multiple rules on %s" % sw_id.name
 
 
 def readTableRules(p4info_helper, sw):
@@ -153,15 +162,24 @@ def main(p4info_file_path, bmv2_file_path):
 
 
     # Write the rules that tunnel traffic from h1 to h2
-    writeRules(p4info_helper, sw_id=s1, dst_ip_addr="10.0.1.10", rtmp=[2,2], ttmp=2, out_port=2, action_flag=0, priority=1)
-    writeRules(p4info_helper, sw_id=s1, dst_ip_addr="10.0.1.10", rtmp=[1,3], ttmp=3, out_port=2, action_flag=0, priority=2)
-    writeRules(p4info_helper, sw_id=s1, dst_ip_addr="10.0.0.10", rtmp=[1,3], ttmp=2, out_port=1, action_flag=0, priority=1)
-    writeRules(p4info_helper, sw_id=s1, dst_ip_addr="10.0.1.10", rtmp=[1,1], ttmp=1, out_port=2, action_flag=1, priority=1)
+    writeRules(p4info_helper, sw_id=s1, dst_ip_addr="10.0.1.10", ip_addr_mask="255.255.0.255", rtmp=[2,2], ttmp=2, out_port=2, action_flag=0, priority=1)
 
-    sleep(5)
+    writeRules(p4info_helper, sw_id=s1, dst_ip_addr="10.0.0.10", ip_addr_mask="255.255.255.255", rtmp=[1,3], ttmp=2, out_port=1, action_flag=0, priority=2)
+    #writeRules(p4info_helper, sw_id=s1, dst_ip_addr="10.0.1.10", ip_addr_mask="255.255.255.255", rtmp=[1,1], ttmp=1, out_port=2, action_flag=1, priority=1)
+    #writeRules(p4info_helper, sw_id=s1, dst_ip_addr="10.0.1.10", ip_addr_mask="255.255.255.255", rtmp=[1,5], ttmp=5, out_port=2, action_flag=2, priority=3)
 
-    writeRules(p4info_helper, sw_id=s1, dst_ip_addr="10.0.1.10", rtmp=[1,1], ttmp=1, out_port=2, action_flag=1, priority=1, update_flag_write=1)
+    #sleep(0.8)
+    #dst_ip_addr_list = ["10.0.1.10"] * 20
+    #rtmp_list=[[1,1]] + [[5,5]]*18 + [[1,3]]
+    #ttmp_list = [1] +[3]*19
+    #out_port_list = [2]*20
+    #action_flag_list = [1] + [0]*19
+    #priority_list = [1] + [i+5 for i in range(18)] + [2]
+    #update_flag_write_list = [1] + [0]*19
+    #writeMultiRules(p4info_helper, sw_id=s1, dst_ip_addr_list=dst_ip_addr_list, rtmp_list=rtmp_list, ttmp_list=ttmp_list, out_port_list=out_port_list, action_flag_list=action_flag_list, priority_list=priority_list, update_flag_write_list=update_flag_write_list)
 
+    #writeRules(p4info_helper, sw_id=s1, dst_ip_addr="10.0.1.10", rtmp=[1,1], ttmp=1, out_port=2, action_flag=1, priority=1, update_flag_write=1)
+    #writeRules(p4info_helper, sw_id=s1, dst_ip_addr="10.0.1.10", rtmp=[1,3], ttmp=3, out_port=2, action_flag=0, priority=2)
     #writeRules(p4info_helper, sw_id=s1, dst_ip_addr="10.0.1.10", rtmp=[1,1], ttmp=1, out_port=2, action_flag=0, priority=1)
     #readTableRules(p4info_helper, sw=s1)
 
@@ -169,10 +187,10 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='P4Runtime Controller')
     parser.add_argument('--p4info', help='p4info proto in text format from p4c',
                         type=str, action="store", required=False,
-                        default='./build/advanced_tunnel.p4info')
+                        default="/home/shengliu/Workspace/behavioral-model/targets/simple_switch_grpc/newtest/test_router.proto.txt")
     parser.add_argument('--bmv2-json', help='BMv2 JSON file from p4c',
                         type=str, action="store", required=False,
-                        default='./build/advanced_tunnel.json')
+                        default="/home/shengliu/Workspace/behavioral-model/targets/simple_switch_grpc/newtest/test_router.json")
     args = parser.parse_args()
 
     if not os.path.exists(args.p4info):
