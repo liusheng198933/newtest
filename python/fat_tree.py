@@ -208,9 +208,10 @@ class ExerciseRunner:
 
         # wait for that to finish. Not sure how to do this better
         sleep(3)
-        filepath = os.getcwd() + '/flow_update_8.tsv'
-        flow_list = get_flow_list(filepath, K, 0, 104)
-        snapshot_deploy_buffer(self.net, flow_list, p4info_file_path, bmv2_file_path, K)
+        filepath = os.getcwd() + '/flow_update.tsv'
+        #flow_list = get_flow_list(filepath, K, 0, 104)
+        #snapshot_deploy_buffer(self.net, flow_list, p4info_file_path, bmv2_file_path, K)
+
         #for ha in range(100):
             #if ha % 3 == 0:
             #    snapshot_deploy(flow_list, p4info_file_path, bmv2_file_path, filepath, self.K, 0)
@@ -228,22 +229,24 @@ class ExerciseRunner:
             #CLI(self.net)
 
 
-
+        pkt_rate = 1000
+        for b in range(1, 2):
+            test_run_worst(self.K, self.net, p4info_file_path, bmv2_file_path, pkt_rate, 1, 12, filepath)
 
 
         #snapshot_deploy_coco(p4info_file_path, bmv2_file_path, filepath, self.K, 0, 2, self.net)
         #self.do_net_cli()
         for b in range(1, 1):
             pkt_rate = (11 - b) * 100
-            #pkt_rate = 900
-            for j in range(1):
+            pkt_rate = 1000
+            for j in range(1, 2):
                 for i in range(1, 2):
                     #pass
                     print j
                     #test_run(self.K, self.net, p4info_file_path, bmv2_file_path, pkt_rate, 0, j)
-                    #test_run(self.K, self.net, p4info_file_path, bmv2_file_path, pkt_rate, 0, j)
+                    test_run(self.K, self.net, p4info_file_path, bmv2_file_path, pkt_rate, 1, 12, filepath)
                     # normal update
-                    test_run_link(self.K, self.net, p4info_file_path, bmv2_file_path, pkt_rate, 1, 12)
+                    #test_run_link(self.K, self.net, p4info_file_path, bmv2_file_path, pkt_rate, 1, 12, filepath)
                     # link failure
                     #result = test_run_time(self.K, self.net, p4info_file_path, bmv2_file_path, pkt_rate, 2, 12)
                     #result = test_run_time(self.K, self.net, p4info_file_path, bmv2_file_path, pkt_rate, 1, 12)

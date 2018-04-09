@@ -6,14 +6,18 @@ import argparse
 import os
 from util import *
 
-def readTableRules(K, p4info_helper, sw_id):
+def readTableRules(K, p4info_helper, sw_id, flag=0):
     '''
     Reads the table entries from all tables on the switch.
 
     :param p4info_helper: the P4Info helper
     :param sw: the switch connection
     '''
-    sw = p4runtime_lib.bmv2.Bmv2SwitchConnection(grpc2name(K, sw_id), address='localhost:%d' %(sw_id+50051))
+    if flag:
+        sw = p4runtime_lib.bmv2.Bmv2SwitchConnection('s%d' %(sw_id+1), address='localhost:%d' %(sw_id+50051))
+    else:
+        sw = p4runtime_lib.bmv2.Bmv2SwitchConnection(grpc2name(K, sw_id), address='localhost:%d' %(sw_id+50051))
+
     print '\n----- Reading tables rules for %s -----' % sw.name
     for response in sw.ReadTableEntries():
         for entity in response.entities:
@@ -56,6 +60,9 @@ if __name__ == '__main__':
                         type=int, action="store", required=False,
                         default=4)
     parser.add_argument('--id', help='switch id',
+                        type=int, action="store", required=False,
+                        default=0)
+    parser.add_argument('--flag', help='if fat tree',
                         type=int, action="store", required=False,
                         default=0)
     args = parser.parse_args()

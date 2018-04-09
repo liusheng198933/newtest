@@ -7,8 +7,8 @@ import copy
 import subprocess
 import time
 import random
-#from mininet.cli import CLI
-#from time_generate import *
+from mininet.cli import CLI
+#rom time_generate import *
 #from read_all import *
 
 PRTMAX = 100

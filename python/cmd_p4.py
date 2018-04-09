@@ -71,6 +71,46 @@ def table_entry_construct(p4info_helper, src_ip_addr, src_addr_mask, dst_ip_addr
     return table_entry
 
 
+def table_entry_construct_new(p4info_helper, src_ip_addr='0.0.0.0', src_addr_mask='0.0.0.0', dst_ip_addr='0.0.0.0', dst_addr_mask='0.0.0.0', rtmp=0, ttmp=0, out_port=0, priority=priority_default, table_id=0):
+
+    if table_id == 0:
+        if out_port == 0:
+            table_entry = p4info_helper.buildTableEntry(
+                table_name="ipv4_lpm",
+                match_fields={
+                    "ipv4.srcAddr": (src_ip_addr, src_addr_mask),
+                    "ipv4.dstAddr": (dst_ip_addr, dst_addr_mask),
+                },
+                priority = priority,
+                action_name="_drop")
+        else:
+            table_entry = p4info_helper.buildTableEntry(
+                table_name="ipv4_lpm",
+                match_fields={
+                    "ipv4.srcAddr": (src_ip_addr, src_addr_mask),
+                    "ipv4.dstAddr": (dst_ip_addr, dst_addr_mask),
+                },
+                priority = priority,
+                action_name="set_nhop",
+                action_params={
+                    "rtmp": rtmp,
+                    "ttmp": ttmp,
+                    "port": out_port,
+                })
+
+    if table_id == 1:
+        table_entry = p4info_helper.buildTableEntry(
+            table_name="resubmit_table",
+            action_name="_resubmit")
+
+    if table_id == 2:
+        table_entry = p4info_helper.buildTableEntry(
+            table_name="action_table",
+            action_name="_set_tmp")
+
+    return table_entry
+
+
 class writeThread (threading.Thread):
    def __init__(self, K, p4info_helper, sw_id, src_ip_addr_list, src_addr_mask_list, dst_ip_addr_list, dst_addr_mask_list, rtmp_list, ttmp_list, out_port_list, action_flag_list, priority_list, update_flag_write_list, delay=0):
       threading.Thread.__init__(self)
@@ -88,7 +128,7 @@ class writeThread (threading.Thread):
       self.priority_list = priority_list
       self.update_flag_write_list = update_flag_write_list
       self.delay = delay
-      
+
    def run(self):
        if self.delay:
            sleep(self.delay)
@@ -107,6 +147,12 @@ def writeRules(K, p4info_helper, sw_id, src_ip_addr, src_addr_mask, dst_ip_addr,
     sw.WriteTableEntry(table_entry,update_flag=update_flag_write)
     #print "Installed ingress tunnel rule on %s" % sw.name
 
+def writeRules_new(K, p4info_helper, sw_id, src_ip_addr, src_addr_mask, dst_ip_addr, dst_addr_mask, rtmp, ttmp, out_port, table_id=0, priority=priority_default, update_flag_write=0):
+    # the rule of priority: smaller is more priority
+    sw = p4runtime_lib.bmv2.Bmv2SwitchConnection(grpc2name(K, sw_id), address='localhost:%d' %(sw_id+50051))
+    table_entry = table_entry_construct_new(p4info_helper, src_ip_addr, src_addr_mask, dst_ip_addr, dst_addr_mask, rtmp, ttmp, out_port, action_flag, priority)
+    sw.WriteTableEntry(table_entry,update_flag=update_flag_write)
+    #print "Installed ingress tunnel rule on %s" % sw.name
 
 def writeMultiRules(K, p4info_helper, sw_id, src_ip_addr_list, src_addr_mask_list, dst_ip_addr_list, dst_addr_mask_list, rtmp_list, ttmp_list, out_port_list, action_flag_list, priority_list, update_flag_write_list):
     # the rule of priority: smaller is more priority
@@ -242,6 +288,60 @@ def main(p4info_file_path, bmv2_file_path):
     #writeRules(p4info_helper, sw_id=s1, dst_ip_addr="10.0.1.10", rtmp=[1,1], ttmp=1, out_port=2, action_flag=0, priority=1)
     #readTableRules(p4info_helper, sw=s1)
 
+
+def main_new(p4info_file_path):
+    # Instantiate a P4 Runtime helper from the p4info file
+    p4info_helper = p4runtime_lib.helper.P4InfoHelper(p4info_file_path)
+
+    sw = p4runtime_lib.bmv2.Bmv2SwitchConnection('s1', address='localhost:50051')
+    table_entry = table_entry_construct_new(p4info_helper, src_ip_addr="10.0.0.10",
+                                            src_addr_mask="255.255.255.255",
+                                            dst_ip_addr='10.0.1.10',
+                                            dst_addr_mask='255.255.255.255',
+                                            rtmp=1, ttmp=2, out_port=2,
+                                            priority=3, table_id=0)
+    sw.WriteTableEntry(table_entry)
+
+    table_entry = table_entry_construct_new(p4info_helper, src_ip_addr="0.0.0.0",
+                                            src_addr_mask="0.0.0.0",
+                                            dst_ip_addr='0.0.0.0',
+                                            dst_addr_mask='0.0.0.0',
+                                            rtmp=0, ttmp=0, out_port=0,
+                                            priority=1, table_id=1)
+    sw.WriteTableEntry(table_entry)
+
+    table_entry = table_entry_construct_new(p4info_helper, src_ip_addr="0.0.0.0",
+                                            src_addr_mask="0.0.0.0",
+                                            dst_ip_addr='0.0.0.0',
+                                            dst_addr_mask='0.0.0.0',
+                                            rtmp=0, ttmp=0, out_port=0,
+                                            priority=1, table_id=2)
+    sw.WriteTableEntry(table_entry)
+    #readTableRules(p4info_helper, sw=s1)
+
+def rule_change(p4info_file_path):
+    # Instantiate a P4 Runtime helper from the p4info file
+    p4info_helper = p4runtime_lib.helper.P4InfoHelper(p4info_file_path)
+
+    sw = p4runtime_lib.bmv2.Bmv2SwitchConnection('s1', address='localhost:50051')
+    table_entry = table_entry_construct_new(p4info_helper, src_ip_addr="10.0.0.10",
+                                            src_addr_mask="255.255.255.255",
+                                            dst_ip_addr='10.0.1.10',
+                                            dst_addr_mask='255.255.255.255',
+                                            rtmp=4, ttmp=2, out_port=2,
+                                            priority=3, table_id=0)
+    sw.WriteTableEntry(table_entry, update_flag=1)
+
+    table_entry = table_entry_construct_new(p4info_helper, src_ip_addr="10.0.0.10",
+                                            src_addr_mask="255.255.255.255",
+                                            dst_ip_addr='10.0.1.10',
+                                            dst_addr_mask='255.255.255.255',
+                                            rtmp=10, ttmp=2, out_port=2,
+                                            priority=3, table_id=0)
+    sw.WriteTableEntry(table_entry)
+
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='P4Runtime Controller')
     parser.add_argument('--p4info', help='p4info proto in text format from p4c',
@@ -261,4 +361,7 @@ if __name__ == '__main__':
         print "\nBMv2 JSON file not found: %s\nHave you run 'make'?" % args.bmv2_json
         parser.exit(1)
 
-    main(args.p4info, args.bmv2_json)
+    #main(args.p4info, args.bmv2_json)
+
+    #main_new(args.p4info)
+    rule_change(args.p4info)

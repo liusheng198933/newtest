@@ -30,6 +30,12 @@ from mininet.link import TCLink
 from mininet.cli import CLI
 
 from p4runtime_switch import P4RuntimeSwitch
+import p4runtime_lib.bmv2
+import p4runtime_lib.helper
+from cmd_p4 import *
+from switch_state import rule
+
+PRTMAX = 100
 
 def configureP4Switch(**switch_args):
     """ Helper class that is called by mininet to initialize
@@ -75,7 +81,7 @@ class SingleSwitchTopo(Topo):
 
         for h in xrange(n):
             host = self.addHost('h%d' % (h + 1),
-                                ip = "10.0.%d.10/24" % h,
+                                ip = "10.0.%d.10" % h,
                                 mac = '00:04:00:00:00:%02x' %h)
             self.addLink(host, switch)
 
@@ -228,7 +234,7 @@ class ExerciseRunner:
         self.bmv2_exe = bmv2_exe
 
 
-    def run_exercise(self):
+    def run_exercise(self, p4info_file_path, bmv2_file_path):
         """ Sets up the mininet instance, programs the switches,
             and starts the mininet CLI. This is the main method to run after
             initializing the object.
@@ -251,6 +257,16 @@ class ExerciseRunner:
 
 
         # wait for that to finish. Not sure how to do this better
+        sleep(1)
+
+        self.SingleSwitchTopoConfig(p4info_file_path, bmv2_file_path)
+
+        sleep(1)
+
+        CLI(self.net)
+
+        self.bufferTest(p4info_file_path)
+
         sleep(1)
 
         self.do_net_cli()
@@ -302,13 +318,11 @@ class ExerciseRunner:
         switchClass = configureP4Switch(
                 sw_path=self.bmv2_exe,
                 json_path=self.switch_json,
-                log_console=True,
-                pcap_dump=self.pcap_dir)
+                log_console=True)
 
         print "mininet starts"
 
         self.net = Mininet(topo = self.topo,
-                      link = TCLink,
                       host = P4Host,
                       switch = switchClass,
                       controller = None)
@@ -371,6 +385,231 @@ class ExerciseRunner:
             h.setDefaultRoute("via %s" % sw_ip)
 
 
+    def SingleSwitchTopoConfig(self, p4info_file_path, bmv2_file_path):
+        p4info_helper = p4runtime_lib.helper.P4InfoHelper(p4info_file_path)
+        sw = p4runtime_lib.bmv2.Bmv2SwitchConnection('s1', address='localhost:50051')
+        sw.SetForwardingPipelineConfig(p4info=p4info_helper.p4info,
+                                       bmv2_json_file_path=bmv2_file_path)
+
+
+        sleep(1)
+
+        #how to construct sw_rule
+        table_entry = table_entry_construct_new(p4info_helper, table_id=1)
+        sw.WriteTableEntry(table_entry)
+
+        sleep(1)
+
+        table_entry = table_entry_construct_new(p4info_helper, table_id=2)
+        sw.WriteTableEntry(table_entry)
+        #init
+        sw_rule = {}
+        sw_rule['add'] = []
+        sw_rule['del'] = []
+        #sw_rule['add'].append(rule('s1', {}, 100, 0, 0, 0, 1))
+        #sw_rule['add'].append(rule('s1', {'ipv4_dst':'10.0.0.0/255.0.0.0', 'ipv4_src':'10.0.0.0/255.0.0.0'}, 100, 0, -1, 0, 2))
+
+        #writeRules(K, p4info_helper, i, "10.0.0.0", "255.0.0.0", "10.0.0.0", "255.0.0.0", rtmp_max, 0, 1, action_flag=1, priority=PRTMAX-2)
+        #writeRules(K, p4info_helper, i, "0.0.0.0", "0.0.0.0", "0.0.0.0", "0.0.0.0", rtmp_max, 0, 1, action_flag=2, priority=PRTMAX-1)
+        #sw = p4runtime_lib.bmv2.Bmv2SwitchConnection(grpc2name(K, sw_id), address='localhost:%d' %(sw_id+50051))
+        #table_entry = table_entry_construct(p4info_helper, src_ip_addr, src_addr_mask, dst_ip_addr, dst_addr_mask, rtmp, ttmp, out_port, action_flag, priority)
+        #sw.WriteTableEntry(table_entry,update_flag=update_flag_write)
+
+        #routing rules
+        ip_src = '10.0.0.10'
+        ip_dst = '10.0.1.10'
+        match = {}
+        match['ipv4_dst'] = ip_dst
+        match['ipv4_src'] = ip_src
+        match_reverse = {}
+        match_reverse['ipv4_dst'] = ip_src
+        match_reverse['ipv4_src'] = ip_dst
+        sw_rule['add'].append(rule('s1', match, 1, 1, 2, 0, 20))
+        sw_rule['add'].append(rule('s1', match_reverse, 2, 2, 1, 0, 20))
+
+        #self.oneSwitchDeploy(p4info_helper, sw, sw_rule)
+        self.oneSwitchDeployNew(p4info_helper, sw, sw_rule)
+
+
+
+    def bufferTest(self, p4info_file_path):
+        p4info_helper = p4runtime_lib.helper.P4InfoHelper(p4info_file_path)
+        sw = p4runtime_lib.bmv2.Bmv2SwitchConnection('s1', address='localhost:50051')
+
+        sw_rule = {}
+        sw_rule['add'] = []
+        sw_rule['del'] = []
+
+        #routing rules with new tmp
+        ip_src = '10.0.0.10'
+        ip_dst = '10.0.1.10'
+        match = {}
+        match['ipv4_dst'] = ip_dst
+        match['ipv4_src'] = ip_src
+        sw_rule['del'].append(rule('s1', match, 1, 1, 2, 0, 20))
+        sw_rule['add'].append(rule('s1', match, 2, 2, 2, 0, 20))
+
+        #self.oneSwitchDeploy(p4info_helper, sw, sw_rule)
+        self.oneSwitchDeployNew(p4info_helper, sw, sw_rule)
+
+
+    def oneSwitchDeployNew(self, p4info_helper, sw, sw_rule):
+        src_ip_addr_list = []
+        src_addr_mask_list = []
+        dst_ip_addr_list = []
+        dst_addr_mask_list = []
+        rtmp_list = []
+        ttmp_list = []
+        out_port_list= []
+        priority_list = []
+        update_flag_write_list = []
+
+        for r in sw_rule['del']:
+            mt = r.get_match()
+            if not mt:
+                dst_ip_addr_list.append('0.0.0.0')
+                dst_addr_mask_list.append('0.0.0.0')
+                src_ip_addr_list.append('0.0.0.0')
+                src_addr_mask_list.append('0.0.0.0')
+            else:
+                if '/' in mt['ipv4_dst']:
+                    dst_ip_addr_list.append(mt['ipv4_dst'].split('/')[0])
+                    dst_addr_mask_list.append(mt['ipv4_dst'].split('/')[1])
+                else:
+                    dst_ip_addr_list.append(mt['ipv4_dst'])
+                    dst_addr_mask_list.append('255.255.255.255')
+                if '/' in mt['ipv4_src']:
+                    src_ip_addr_list.append(mt['ipv4_src'].split('/')[0])
+                    src_addr_mask_list.append(mt['ipv4_src'].split('/')[1])
+                else:
+                    src_ip_addr_list.append(mt['ipv4_src'])
+                    src_addr_mask_list.append('255.255.255.255')
+            rtmp_list.append(r.get_rtmp())
+            ttmp_list.append(r.get_ttmp())
+            out_port_list.append(r.get_action())
+            priority_list.append(PRTMAX-r.get_prt())
+            update_flag_write_list.append(1)
+
+        for r in sw_rule['add']:
+            mt = r.get_match()
+            if not mt:
+                dst_ip_addr_list.append('0.0.0.0')
+                dst_addr_mask_list.append('0.0.0.0')
+                src_ip_addr_list.append('0.0.0.0')
+                src_addr_mask_list.append('0.0.0.0')
+            else:
+                if '/' in mt['ipv4_dst']:
+                    dst_ip_addr_list.append(mt['ipv4_dst'].split('/')[0])
+                    dst_addr_mask_list.append(mt['ipv4_dst'].split('/')[1])
+                else:
+                    dst_ip_addr_list.append(mt['ipv4_dst'])
+                    dst_addr_mask_list.append('255.255.255.255')
+                if '/' in mt['ipv4_src']:
+                    src_ip_addr_list.append(mt['ipv4_src'].split('/')[0])
+                    src_addr_mask_list.append(mt['ipv4_src'].split('/')[1])
+                else:
+                    src_ip_addr_list.append(mt['ipv4_src'])
+                    src_addr_mask_list.append('255.255.255.255')
+            rtmp_list.append(r.get_rtmp())
+            ttmp_list.append(r.get_ttmp())
+            out_port_list.append(r.get_action())
+            priority_list.append(PRTMAX-r.get_prt())
+            update_flag_write_list.append(0)
+
+        table_entry_list = []
+        for i in range(len(dst_ip_addr_list)):
+            table_entry_list.append(table_entry_construct_new(p4info_helper, src_ip_addr_list[i], src_addr_mask_list[i], dst_ip_addr_list[i], dst_addr_mask_list[i], rtmp_list[i], ttmp_list[i], out_port_list[i], priority_list[i]))
+        sw.WriteTableEntryMulti(table_entry_list, update_flag_list=update_flag_write_list)
+
+
+
+    def oneSwitchDeploy(self, p4info_helper, sw, sw_rule):
+        src_ip_addr_list = []
+        src_addr_mask_list = []
+        dst_ip_addr_list = []
+        dst_addr_mask_list = []
+        rtmp_list = []
+        ttmp_list = []
+        out_port_list= []
+        priority_list = []
+        action_flag_list = []
+        update_flag_write_list = []
+
+        for r in sw_rule['del']:
+            mt = r.get_match()
+            if not mt:
+                dst_ip_addr_list.append('0.0.0.0')
+                dst_addr_mask_list.append('0.0.0.0')
+                src_ip_addr_list.append('0.0.0.0')
+                src_addr_mask_list.append('0.0.0.0')
+            else:
+                if '/' in mt['ipv4_dst']:
+                    dst_ip_addr_list.append(mt['ipv4_dst'].split('/')[0])
+                    dst_addr_mask_list.append(mt['ipv4_dst'].split('/')[1])
+                else:
+                    dst_ip_addr_list.append(mt['ipv4_dst'])
+                    dst_addr_mask_list.append('255.255.255.255')
+                if '/' in mt['ipv4_src']:
+                    src_ip_addr_list.append(mt['ipv4_src'].split('/')[0])
+                    src_addr_mask_list.append(mt['ipv4_src'].split('/')[1])
+                else:
+                    src_ip_addr_list.append(mt['ipv4_src'])
+                    src_addr_mask_list.append('255.255.255.255')
+            rtmp_list.append(r.get_rtmp())
+            ttmp_list.append(r.get_ttmp())
+            if r.get_action() == 0:
+                out_port_list.append(1)
+                action_flag_list.append(2)
+            if r.get_action() < 0:
+                out_port_list.append(1)
+                action_flag_list.append(1)
+            if r.get_action() > 0:
+                out_port_list.append(r.get_action())
+                action_flag_list.append(0)
+            priority_list.append(PRTMAX-r.get_prt())
+            update_flag_write_list.append(1)
+
+        for r in sw_rule['add']:
+            mt = r.get_match()
+            if not mt:
+                dst_ip_addr_list.append('0.0.0.0')
+                dst_addr_mask_list.append('0.0.0.0')
+                src_ip_addr_list.append('0.0.0.0')
+                src_addr_mask_list.append('0.0.0.0')
+            else:
+                if '/' in mt['ipv4_dst']:
+                    dst_ip_addr_list.append(mt['ipv4_dst'].split('/')[0])
+                    dst_addr_mask_list.append(mt['ipv4_dst'].split('/')[1])
+                else:
+                    dst_ip_addr_list.append(mt['ipv4_dst'])
+                    dst_addr_mask_list.append('255.255.255.255')
+                if '/' in mt['ipv4_src']:
+                    src_ip_addr_list.append(mt['ipv4_src'].split('/')[0])
+                    src_addr_mask_list.append(mt['ipv4_src'].split('/')[1])
+                else:
+                    src_ip_addr_list.append(mt['ipv4_src'])
+                    src_addr_mask_list.append('255.255.255.255')
+            rtmp_list.append(r.get_rtmp())
+            ttmp_list.append(r.get_ttmp())
+            if r.get_action() == 0:
+                out_port_list.append(1)
+                action_flag_list.append(2)
+            if r.get_action() < 0:
+                out_port_list.append(1)
+                action_flag_list.append(1)
+            if r.get_action() > 0:
+                out_port_list.append(r.get_action())
+                action_flag_list.append(0)
+            priority_list.append(PRTMAX-r.get_prt())
+            update_flag_write_list.append(0)
+
+        table_entry_list = []
+        for i in range(len(dst_ip_addr_list)):
+            table_entry_list.append(table_entry_construct(p4info_helper, src_ip_addr_list[i], src_addr_mask_list[i], dst_ip_addr_list[i], dst_addr_mask_list[i], rtmp_list[i], ttmp_list[i], out_port_list[i], action_flag_list[i], priority_list[i]))
+        sw.WriteTableEntryMulti(table_entry_list, update_flag_list=update_flag_write_list)
+
+
+
     def do_net_cli(self):
         """ Starts up the mininet CLI and prints some helpful output.
 
@@ -378,8 +617,11 @@ class ExerciseRunner:
                 - A mininet instance is stored as self.net and self.net.start() has
                   been called.
         """
+
         for s in self.net.switches:
             s.describe()
+
+
         for h in self.net.hosts:
             h.describe()
         self.logger("Starting mininet CLI")
@@ -429,8 +671,11 @@ if __name__ == '__main__':
     # from mininet.log import setLogLevel
     # setLogLevel("info")
 
+    p4info_file_path = '/home/shengliu/Workspace/behavioral-model/targets/simple_switch_grpc/newtest/test_router.proto.txt'
+    bmv2_file_path = "/home/shengliu/Workspace/behavioral-model/targets/simple_switch_grpc/newtest/test_router.json"
+
     args = get_args()
     exercise = ExerciseRunner(args.topo, args.log_dir, args.pcap_dir,
                               args.switch_json, args.behavioral_exe, args.quiet)
 
-    exercise.run_exercise()
+    exercise.run_exercise(p4info_file_path, bmv2_file_path)

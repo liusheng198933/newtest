@@ -124,8 +124,24 @@
             "max_length": null
         },
         {
-            "name": "ipv4_t",
+            "name": "rtmp_ttmp",
             "id": 5,
+            "fields": [
+                [
+                    "rtmp",
+                    32
+                ],
+                [
+                    "ttmp",
+                    32
+                ]
+            ],
+            "length_exp": null,
+            "max_length": null
+        },
+        {
+            "name": "ipv4_t",
+            "id": 6,
             "fields": [
                 [
                     "version",
@@ -206,14 +222,20 @@
             "metadata": true
         },
         {
-            "name": "ethernet",
+            "name": "rttmp",
             "id": 4,
+            "header_type": "rtmp_ttmp",
+            "metadata": true
+        },
+        {
+            "name": "ethernet",
+            "id": 5,
             "header_type": "ethernet_t",
             "metadata": false
         },
         {
             "name": "ipv4",
-            "id": 5,
+            "id": 6,
             "header_type": "ipv4_t",
             "metadata": false
         }
@@ -357,7 +379,7 @@
     "meter_arrays": [],
     "actions": [
         {
-            "name": "_resubmit",
+            "name": "_set_tmp",
             "id": 0,
             "runtime_data": [],
             "primitives": [
@@ -367,54 +389,16 @@
                         {
                             "type": "field",
                             "value": [
-                                "circt",
-                                "ct"
+                                "pktTMP",
+                                "tmp"
                             ]
                         },
-                        {
-                            "type": "hexstr",
-                            "value": "0x1"
-                        }
-                    ]
-                },
-                {
-                    "op": "resubmit",
-                    "parameters": [
-                        {
-                            "type": "hexstr",
-                            "value": "0x1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "set_nhop",
-            "id": 1,
-            "runtime_data": [
-                {
-                    "name": "ttmp",
-                    "bitwidth": 32
-                },
-                {
-                    "name": "port",
-                    "bitwidth": 9
-                }
-            ],
-            "primitives": [
-                {
-                    "op": "modify_field",
-                    "parameters": [
                         {
                             "type": "field",
                             "value": [
-                                "standard_metadata",
-                                "egress_spec"
+                                "rttmp",
+                                "ttmp"
                             ]
-                        },
-                        {
-                            "type": "runtime_data",
-                            "value": 1
                         }
                     ]
                 },
@@ -449,6 +433,42 @@
                             }
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "name": "set_nhop",
+            "id": 1,
+            "runtime_data": [
+                {
+                    "name": "rtmp",
+                    "bitwidth": 32
+                },
+                {
+                    "name": "ttmp",
+                    "bitwidth": 32
+                },
+                {
+                    "name": "port",
+                    "bitwidth": 9
+                }
+            ],
+            "primitives": [
+                {
+                    "op": "modify_field",
+                    "parameters": [
+                        {
+                            "type": "field",
+                            "value": [
+                                "standard_metadata",
+                                "egress_spec"
+                            ]
+                        },
+                        {
+                            "type": "runtime_data",
+                            "value": 2
+                        }
+                    ]
                 },
                 {
                     "op": "modify_field",
@@ -456,13 +476,29 @@
                         {
                             "type": "field",
                             "value": [
-                                "pktTMP",
-                                "tmp"
+                                "rttmp",
+                                "rtmp"
                             ]
                         },
                         {
                             "type": "runtime_data",
                             "value": 0
+                        }
+                    ]
+                },
+                {
+                    "op": "modify_field",
+                    "parameters": [
+                        {
+                            "type": "field",
+                            "value": [
+                                "rttmp",
+                                "ttmp"
+                            ]
+                        },
+                        {
+                            "type": "runtime_data",
+                            "value": 1
                         }
                     ]
                 }
@@ -478,6 +514,38 @@
                     "parameters": []
                 }
             ]
+        },
+        {
+            "name": "_resubmit",
+            "id": 3,
+            "runtime_data": [],
+            "primitives": [
+                {
+                    "op": "modify_field",
+                    "parameters": [
+                        {
+                            "type": "field",
+                            "value": [
+                                "circt",
+                                "ct"
+                            ]
+                        },
+                        {
+                            "type": "hexstr",
+                            "value": "0x1"
+                        }
+                    ]
+                },
+                {
+                    "op": "resubmit",
+                    "parameters": [
+                        {
+                            "type": "hexstr",
+                            "value": "0x1"
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "pipelines": [
@@ -489,7 +557,7 @@
                 {
                     "name": "ipv4_lpm",
                     "id": 0,
-                    "match_type": "range",
+                    "match_type": "ternary",
                     "type": "simple",
                     "max_size": 1024,
                     "with_counters": false,
@@ -511,25 +579,51 @@
                                 "dstAddr"
                             ],
                             "mask": null
-                        },
-                        {
-                            "match_type": "range",
-                            "target": [
-                                "pktTMP",
-                                "tmp"
-                            ],
-                            "mask": null
                         }
                     ],
                     "actions": [
                         "set_nhop",
-                        "_resubmit",
                         "_drop"
                     ],
                     "next_tables": {
-                        "set_nhop": null,
-                        "_resubmit": null,
-                        "_drop": null
+                        "set_nhop": "_condition_1",
+                        "_drop": "_condition_1"
+                    },
+                    "base_default_next": "_condition_1"
+                },
+                {
+                    "name": "resubmit_table",
+                    "id": 1,
+                    "match_type": "exact",
+                    "type": "simple",
+                    "max_size": 1024,
+                    "with_counters": false,
+                    "direct_meters": null,
+                    "support_timeout": false,
+                    "key": [],
+                    "actions": [
+                        "_resubmit"
+                    ],
+                    "next_tables": {
+                        "_resubmit": "_condition_2"
+                    },
+                    "base_default_next": "_condition_2"
+                },
+                {
+                    "name": "action_table",
+                    "id": 2,
+                    "match_type": "exact",
+                    "type": "simple",
+                    "max_size": 1024,
+                    "with_counters": false,
+                    "direct_meters": null,
+                    "support_timeout": false,
+                    "key": [],
+                    "actions": [
+                        "_set_tmp"
+                    ],
+                    "next_tables": {
+                        "_set_tmp": null
                     },
                     "base_default_next": null
                 }
@@ -591,6 +685,92 @@
                         }
                     },
                     "true_next": "ipv4_lpm",
+                    "false_next": "_condition_1"
+                },
+                {
+                    "name": "_condition_1",
+                    "id": 1,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": "and",
+                            "left": {
+                                "type": "expression",
+                                "value": {
+                                    "op": "valid",
+                                    "left": null,
+                                    "right": {
+                                        "type": "header",
+                                        "value": "pktTMP"
+                                    }
+                                }
+                            },
+                            "right": {
+                                "type": "expression",
+                                "value": {
+                                    "op": "<",
+                                    "left": {
+                                        "type": "field",
+                                        "value": [
+                                            "rttmp",
+                                            "rtmp"
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "field",
+                                        "value": [
+                                            "pktTMP",
+                                            "tmp"
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "true_next": "resubmit_table",
+                    "false_next": "_condition_2"
+                },
+                {
+                    "name": "_condition_2",
+                    "id": 2,
+                    "expression": {
+                        "type": "expression",
+                        "value": {
+                            "op": "and",
+                            "left": {
+                                "type": "expression",
+                                "value": {
+                                    "op": "valid",
+                                    "left": null,
+                                    "right": {
+                                        "type": "header",
+                                        "value": "pktTMP"
+                                    }
+                                }
+                            },
+                            "right": {
+                                "type": "expression",
+                                "value": {
+                                    "op": ">=",
+                                    "left": {
+                                        "type": "field",
+                                        "value": [
+                                            "rttmp",
+                                            "rtmp"
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "field",
+                                        "value": [
+                                            "pktTMP",
+                                            "tmp"
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "true_next": "action_table",
                     "false_next": null
                 }
             ]

@@ -113,13 +113,13 @@ action _drop() {
 
 action set_nhop(rtmp, ttmp, port) {
     modify_field(standard_metadata.egress_spec, port);
-    modify_field(ipv4.ttl, ipv4.ttl - 1);
     modify_field(rttmp.rtmp, rtmp);
     modify_field(rttmp.ttmp, ttmp);
 }
 
 action _set_tmp() {
     modify_field(pktTMP.tmp, rttmp.ttmp);
+    modify_field(ipv4.ttl, ipv4.ttl - 1);
 }
 
 field_list resubmit_FL {
@@ -139,7 +139,6 @@ table ipv4_lpm {
     }
     actions {
         set_nhop;
-        _resubmit;
         _drop;
     }
     size: 1024;

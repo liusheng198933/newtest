@@ -123,7 +123,7 @@ class P4RuntimeSwitch(P4Switch):
             args.append("--debugger")
         if self.log_console:
             args.append("--log-file " + logfile)
-            args.append("--log-level error --log-flush")
+            args.append("--log-level debug --log-flush")
         if self.grpc_port:
             args.append("-- --grpc-server-addr 0.0.0.0:" + str(self.grpc_port))
         cmd = ' '.join(args)

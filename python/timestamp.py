@@ -185,7 +185,7 @@ def rule_construct(old_path, new_path, flow, state, prt, out_port_old, out_port_
             rule_set[i]['add'] = []
             rule_set[i]['del'] = []
             if i in old_path:
-                rule_set[i]['del'].append(rule(i, match, clk-1, 0, out_port_old[i], table_id, prt))
+                rule_set[i]['del'].append(rule(i, match, clk-1, clk-1, out_port_old[i], table_id, prt))
             rule_set[i]['add'].append(rule(i, match, clk, 0, out_port_new[i], table_id, prt))
 
         for i in (set(old_path) - set(new_path)):
@@ -193,7 +193,7 @@ def rule_construct(old_path, new_path, flow, state, prt, out_port_old, out_port_
                 rule_set[i] = {}
                 rule_set[i]['add'] = []
                 rule_set[i]['del'] = []
-            rule_set[i]['del'].append(rule(i, match, clk-1, 0, out_port_old[i], table_id, prt))
+            rule_set[i]['del'].append(rule(i, match, clk-1, clk-1, out_port_old[i], table_id, prt))
 
     else:
 
@@ -204,10 +204,12 @@ def rule_construct(old_path, new_path, flow, state, prt, out_port_old, out_port_
             if i == new_path[0]:
                 rule_set[i]['add'].append(rule(i, match, 0, clk, out_port_new[i], table_id, prt))
             else:
-                if i == new_path[len(new_path)-1]:
-                    rule_set[i]['add'].append(rule(i, match, clk, 0, out_port_new[i], table_id, prt))
-                else:
-                    rule_set[i]['add'].append(rule(i, match, clk, 0, out_port_new[i], table_id, prt))
+                rule_set[i]['add'].append(rule(i, match, clk, 0, out_port_new[i], table_id, prt))
+
+                #if i == new_path[len(new_path)-1]:
+                #    rule_set[i]['add'].append(rule(i, match, clk, 0, out_port_new[i], table_id, prt))
+                #else:
+                #    rule_set[i]['add'].append(rule(i, match, clk, 0, out_port_new[i], table_id, prt))
 
     return rule_set
 
@@ -535,8 +537,8 @@ def rule_construct_coco_twice(old_path, new_path, flow, state, prt, out_port, cl
 
 
 
-def state_update(rule_set, state):
-    #state = copy.deepcopy(state_old)
+def state_update(rule_set, state_old):
+    state = copy.deepcopy(state_old)
     table_id = 0
     for i in rule_set.keys():
         tb = state.get_table(i, table_id)

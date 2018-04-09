@@ -1,5 +1,20 @@
 tables {
   preamble {
+    id: 33588772
+    name: "action_table"
+    alias: "action_table"
+  }
+  action_refs {
+    id: 16819950
+  }
+  action_refs {
+    id: 16800567
+    annotations: "@defaultonly()"
+  }
+  size: 1024
+}
+tables {
+  preamble {
     id: 33581985
     name: "ipv4_lpm"
     alias: "ipv4_lpm"
@@ -16,20 +31,26 @@ tables {
     bitwidth: 32
     match_type: TERNARY
   }
-  match_fields {
-    id: 3
-    name: "pktTMP.tmp"
-    bitwidth: 32
-    match_type: RANGE
-  }
   action_refs {
     id: 16812204
   }
   action_refs {
-    id: 16828907
+    id: 16784184
   }
   action_refs {
-    id: 16784184
+    id: 16800567
+    annotations: "@defaultonly()"
+  }
+  size: 1024
+}
+tables {
+  preamble {
+    id: 33556538
+    name: "resubmit_table"
+    alias: "resubmit_table"
+  }
+  action_refs {
+    id: 16828907
   }
   action_refs {
     id: 16800567
@@ -46,26 +67,31 @@ actions {
 }
 actions {
   preamble {
+    id: 16819950
+    name: "_set_tmp"
+    alias: "_set_tmp"
+  }
+}
+actions {
+  preamble {
     id: 16812204
     name: "set_nhop"
     alias: "set_nhop"
   }
   params {
     id: 1
-    name: "ttmp"
+    name: "rtmp"
     bitwidth: 32
   }
   params {
     id: 2
+    name: "ttmp"
+    bitwidth: 32
+  }
+  params {
+    id: 3
     name: "port"
     bitwidth: 9
-  }
-}
-actions {
-  preamble {
-    id: 16828907
-    name: "_resubmit"
-    alias: "_resubmit"
   }
 }
 actions {
@@ -73,5 +99,12 @@ actions {
     id: 16784184
     name: "_drop"
     alias: "_drop"
+  }
+}
+actions {
+  preamble {
+    id: 16828907
+    name: "_resubmit"
+    alias: "_resubmit"
   }
 }

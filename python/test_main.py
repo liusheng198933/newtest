@@ -7,7 +7,7 @@ import copy
 import subprocess
 import time
 import random
-#from mininet.cli import CLI
+from mininet.cli import CLI
 from datetime import datetime
 from time_process import *
 
@@ -44,7 +44,7 @@ def network_init(K, p4info_helper, bmv2_file_path, state, flag):
     for i in dp_set:
         state_cur.add_table(i, 0)
         #state_next.add_table(i,0)
-        state_cur.get_table(i, 0).add_rule({}, 0, 0, 0, 0)
+        #state_cur.get_table(i, 0).add_rule({}, 0, 0, 0, 0)
         #state_next.get_table(i, 0).add_rule({}, 1, 1, 0, 0)
     time.sleep(2)
     return state_cur
@@ -347,10 +347,12 @@ def path_deploy(K, p4info_helper, old_path, new_path, flow, state_cur, prt, in_p
 
     clk = clock + 1
 
-    rule_set = rule_construct(old_path, new_path, flow, state_cur, prt, out_port_new, clk)
+    rule_set = rule_construct(old_path, new_path, flow, state_cur, prt, out_port_old, out_port_new, clk)
+    #rule_set = rule_construct(old_path, new_path, flow, state_cur, prt, out_port_new, clk)
     state_next = state_update(rule_set, state_cur)
 
-    rule_set = setTMP(old_path, new_path, flow, state_cur, state_next, rule_set, clk, in_port_old)
+    rule_set = setTMP(old_path, new_path, flow, state_next, rule_set, clk, in_port_old)
+    #rule_set = setTMP(old_path, new_path, flow, state_cur, state_next, rule_set, clk, in_port_old)
     state_next = state_update(rule_set, state_cur)
     #state_next.copy_state(state_cur)
     """
@@ -371,10 +373,12 @@ def path_deploy(K, p4info_helper, old_path, new_path, flow, state_cur, prt, in_p
     new_path_reverse = copy.deepcopy(new_path)
     new_path_reverse.reverse()
 
-    rule_set_reverse = rule_construct(old_path_reverse, new_path_reverse, flow_reverse, state_next, prt, in_port_new, clk)
+    rule_set_reverse = rule_construct(old_path_reverse, new_path_reverse, flow_reverse, state_next, prt, in_port_old, in_port_new, clk)
+    #rule_set_reverse = rule_construct(old_path_reverse, new_path_reverse, flow_reverse, state_next, prt, in_port_new, clk)
     state_next_next = state_update(rule_set_reverse, state_next)
 
-    rule_set_reverse = setTMP(old_path_reverse, new_path_reverse, flow_reverse, state_next, state_next_next, rule_set_reverse, clk, out_port_old)
+    rule_set_reverse = setTMP(old_path_reverse, new_path_reverse, flow_reverse, state_next_next, rule_set_reverse, clk, out_port_old)
+    #rule_set_reverse = setTMP(old_path_reverse, new_path_reverse, flow_reverse, state_next, state_next_next, rule_set_reverse, clk, out_port_old)
     state_next_next = state_update(rule_set_reverse, state_next)
     #state_next.copy_state(state_cur)
 
@@ -408,6 +412,12 @@ def path_deploy(K, p4info_helper, old_path, new_path, flow, state_cur, prt, in_p
         return {'state': state_next_next, 'clk': clk}
 
     delay_list = delay_generate(rule_set)
+
+    for dp in rule_set.keys():
+        switch_deploy(K, p4info_helper, dp, rule_set[dp], delay_list[dp])
+        #switch_deploy(dp, rule_set[dp], bdid)
+    return {'state': state_next_next, 'clk': clk}
+
     dp_sort = []
     sleep_time = [0]
     for dp in delay_list.keys():
@@ -444,6 +454,77 @@ def path_deploy(K, p4info_helper, old_path, new_path, flow, state_cur, prt, in_p
         #subprocess.Popen("%s" %filepath)
 
 
+def path_deploy_worst(K, p4info_helper, old_path, new_path, flow, state_cur, prt, in_port_old, out_port_old, in_port_new, out_port_new, clock, if_delay):
+
+    clk = clock + 1
+
+    rule_set = rule_construct(old_path, new_path, flow, state_cur, prt, out_port_old, out_port_new, clk)
+    #rule_set = rule_construct(old_path, new_path, flow, state_cur, prt, out_port_new, clk)
+    state_next = state_update(rule_set, state_cur)
+
+    rule_set = setTMP(old_path, new_path, flow, state_next, rule_set, clk, in_port_old)
+    #rule_set = setTMP(old_path, new_path, flow, state_cur, state_next, rule_set, clk, in_port_old)
+    state_next = state_update(rule_set, state_cur)
+    #state_next.copy_state(state_cur)
+    """
+    for r in rule_set.keys():
+        print "add rules:"
+        for x in rule_set[r]['add']:
+            x.print_rule()
+        print "del rules:"
+        for x in rule_set[r]['del']:
+            x.print_rule()
+    """
+    flow_reverse = reverse_flow(flow)
+    #flow_reverse['ipv4_src'] = flow['ipv4_dst']
+    #flow_reverse['ipv4_dst'] = flow['ipv4_src']
+
+    old_path_reverse = copy.deepcopy(old_path)
+    old_path_reverse.reverse()
+    new_path_reverse = copy.deepcopy(new_path)
+    new_path_reverse.reverse()
+
+    rule_set_reverse = rule_construct(old_path_reverse, new_path_reverse, flow_reverse, state_next, prt, in_port_old, in_port_new, clk)
+    #rule_set_reverse = rule_construct(old_path_reverse, new_path_reverse, flow_reverse, state_next, prt, in_port_new, clk)
+    state_next_next = state_update(rule_set_reverse, state_next)
+
+    rule_set_reverse = setTMP(old_path_reverse, new_path_reverse, flow_reverse, state_next_next, rule_set_reverse, clk, out_port_old)
+    #rule_set_reverse = setTMP(old_path_reverse, new_path_reverse, flow_reverse, state_next, state_next_next, rule_set_reverse, clk, out_port_old)
+    state_next_next = state_update(rule_set_reverse, state_next)
+    #state_next.copy_state(state_cur)
+
+    for i in rule_set_reverse.keys():
+        if i in rule_set.keys():
+            for j in rule_set_reverse[i]['add']:
+                rule_set[i]['add'].append(j)
+            for j in rule_set_reverse[i]['del']:
+                rule_set[i]['del'].append(j)
+        else:
+            rule_set[i] = rule_set_reverse[i]
+
+    if not rule_set.keys():
+        return {'state': state_next_next, 'clk': clk}
+    #table_id = 0
+    #script_init(filepath)
+    rule_set = set_clean(rule_set)
+
+
+    if not if_delay:
+        for dp in rule_set.keys():
+            switch_deploy(K, p4info_helper, dp, rule_set[dp])
+            #switch_deploy(dp, rule_set[dp], bdid)
+        return {'state': state_next_next, 'clk': clk}
+
+    delay_list = delay_generate(rule_set)
+
+    for dp in rule_set.keys():
+        switch_deploy(K, p4info_helper, dp, rule_set[dp], delay_list[dp])
+        #switch_deploy(dp, rule_set[dp], bdid)
+    return {'state': state_next_next, 'clk': clk}
+
+
+
+
 
 def path_deploy_link_init(K, p4info_helper, old_path, new_path, flow, state_cur, prt, in_port_old, out_port_old, in_port_new, out_port_new, clock, proto):
     #bdid = bd
@@ -456,8 +537,8 @@ def path_deploy_link_init(K, p4info_helper, old_path, new_path, flow, state_cur,
 
     if proto == 1:
         clk = clock + 1
-
-        rule_set = rule_construct([], old_path, flow, state_cur, prt, out_port_old, clk)
+        rule_set = rule_construct([], old_path, flow, state_cur, prt, out_port_old, out_port_new, clk)
+        #rule_set = rule_construct([], old_path, flow, state_cur, prt, out_port_old, clk)
         #rule_set = rule_construct([], old_path, flow, state_cur, prt, out_port, clk)
         state_next = state_update(rule_set, state_cur)
 
@@ -1145,6 +1226,7 @@ def switch_deploy(K, p4info_helper, dp, sw_rule, delay=0):
 
     return ted
 
+
 def switch_deploy_multi(rule_set, rule_set_idx, bd, fat_tree_net=None):
     bdid = bd
     for i in range(len(rule_set_idx)):
@@ -1292,13 +1374,13 @@ def test_run_all(K, fat_tree_net, pkt_rate, proto, phase):
 
 
 
-def test_run_link(K, fat_tree_net, p4info_file_path, bmv2_file_path, pkt_rate, proto, nt):
+def test_run_link(K, fat_tree_net, p4info_file_path, bmv2_file_path, pkt_rate, proto, nt, filepath):
     sent_num = pkt_rate
     p4info_helper = p4runtime_lib.helper.P4InfoHelper(p4info_file_path)
     state_cur = net()
     #state_next = net()
     state_cur = network_init(K, p4info_helper, bmv2_file_path, state_cur, ((proto==1) or (proto==3)))
-    filepath = cwdpath + 'flow_update.tsv'
+    #filepath = cwdpath + 'flow_update.tsv'
     path_list = path_read(filepath, K)
     old_path = path_list['old_path'][nt]['path']
     new_path = path_list['new_path'][nt]['path']
@@ -1398,14 +1480,14 @@ def test_run_link(K, fat_tree_net, p4info_file_path, bmv2_file_path, pkt_rate, p
 
 
 
-def test_run(K, fat_tree_net, p4info_file_path, bmv2_file_path, pkt_rate, proto, nt):
+def test_run(K, fat_tree_net, p4info_file_path, bmv2_file_path, pkt_rate, proto, nt, filepath):
 
-    sent_num = pkt_rate
+    sent_num = 1000
     p4info_helper = p4runtime_lib.helper.P4InfoHelper(p4info_file_path)
     state_cur = net()
     #state_next = net()
     state_cur = network_init(K, p4info_helper, bmv2_file_path, state_cur, ((proto==1) or (proto==3)))
-    filepath = cwdpath + 'flow_update.tsv'
+    #filepath = cwdpath + 'flow_update.tsv'
     path_list = path_read(filepath, K)
     old_path = path_list['old_path'][nt]['path']
     new_path = path_list['new_path'][nt]['path']
@@ -1416,7 +1498,8 @@ def test_run(K, fat_tree_net, p4info_file_path, bmv2_file_path, pkt_rate, proto,
     priority = 8 # > 2
     clk = 7 # > 1
 
-
+    #print 'path init'
+    #CLI(fat_tree_net)
 
     if len(old_path) == 3:
         return 'Error'
@@ -1467,8 +1550,8 @@ def test_run(K, fat_tree_net, p4info_file_path, bmv2_file_path, pkt_rate, proto,
     delay = 1.0 / pkt_rate - 0.001
     h_dst.cmd('python', recpath, str(ip2host(flow['ipv4_dst'])), '&')
     time.sleep(1)
-    for y in range(6):
-        h_src.cmd('python', sendpath, sent_num, str(ip2host(flow['ipv4_src'])), str(ip2host(flow['ipv4_dst'])), str(delay), '&')
+    #for y in range(6):
+    h_src.cmd('python', sendpath, sent_num, str(ip2host(flow['ipv4_src'])), str(ip2host(flow['ipv4_dst'])), str(delay), '&')
 
     #h_src.cmd('hping3 -1 -c 200 -i u%d %s &' %(pkt_rate, h_dst.IP()))
 
@@ -1504,6 +1587,7 @@ def test_run(K, fat_tree_net, p4info_file_path, bmv2_file_path, pkt_rate, proto,
     #print h_src.cmd('echo')
     #print ping_ret_o
     recv_num = ping_ret_o.strip().split('\n')[1]
+    print recv_num
     #state_cur = clear_sb_rules(filepath, old_path, new_path, flow, state_cur, clk)
     #state_cur.print_state()
     #print 'path change'
@@ -1548,6 +1632,98 @@ def test_run(K, fat_tree_net, p4info_file_path, bmv2_file_path, pkt_rate, proto,
 
     #h_dst.cmd('python write.py %d %s' %(5, h_src.IP()))
     #h_src.cmd('python write.py')
+
+
+
+def test_run_worst(K, fat_tree_net, p4info_file_path, bmv2_file_path, pkt_rate, proto, nt, filepath):
+
+    sent_num = 1000
+    p4info_helper = p4runtime_lib.helper.P4InfoHelper(p4info_file_path)
+    state_cur = net()
+    #state_next = net()
+    state_cur = network_init(K, p4info_helper, bmv2_file_path, state_cur, ((proto==1) or (proto==3)))
+    #filepath = cwdpath + 'flow_update.tsv'
+    path_list = path_read(filepath, K)
+    old_path = path_list['old_path'][nt]['path']
+    new_path = path_list['new_path'][nt]['path']
+
+    in_port_old = out_port_construct(old_path, path_list['old_path'][nt]['in_port'])
+    out_port_old = out_port_construct(old_path, path_list['old_path'][nt]['out_port'])
+    flow = path_list['flow'][nt]
+    priority = 8 # > 2
+    clk = 7 # > 1
+
+    #print 'path init'
+    #CLI(fat_tree_net)
+
+    if len(old_path) == 3:
+        return 'Error'
+
+    if proto == 1:
+        deploy_ret = path_deploy(K, p4info_helper, [], old_path, flow, state_cur, priority, {}, {}, in_port_old, out_port_old, clk, 0)
+
+    state_cur = deploy_ret['state']
+    clk = deploy_ret['clk']
+
+    time.sleep(4)
+
+    #state_cur.print_state()
+
+    #print 'path init'
+    #print str(ip2host(flow['ipv4_dst']))
+    #print str(ip2host(flow['ipv4_src']))
+    #CLI(fat_tree_net)
+
+    h_src = fat_tree_net.get(ip2host(flow['ipv4_src']))
+    h_dst = fat_tree_net.get(ip2host(flow['ipv4_dst']))
+
+    sendpath = cwdpath + 'send_pkt.py'
+    recpath = cwdpath + 'rec_pkt.py'
+
+    delay = 1.0 / pkt_rate - 0.001
+    h_dst.cmd('python', recpath, str(ip2host(flow['ipv4_dst'])), '&')
+    time.sleep(1)
+
+    #for q in range(2):
+    h_src.cmd('python', sendpath, sent_num, str(ip2host(flow['ipv4_src'])), str(ip2host(flow['ipv4_dst'])), str(delay), '&')
+    #h_src.cmd('python', sendpath, sent_num, str(ip2host(flow['ipv4_src'])), str(ip2host(flow['ipv4_dst'])), str(delay), '&')
+
+
+    out_port_new = out_port_construct(new_path, path_list['new_path'][nt]['out_port'])
+    in_port_new = out_port_construct(new_path, path_list['new_path'][nt]['in_port'])
+
+
+    #if proto == 1:
+    #    deploy_ret = path_deploy(K, p4info_helper, old_path, new_path, flow, state_cur, priority, in_port_old, out_port_old, in_port_new, out_port_new, clk, 1)
+        #deploy_ret = path_deploy(old_path, new_path, flow, state_cur, priority, in_port, out_port, clk, bdid, 1, h_src, h_dst, pkt_rate)
+
+    state_cur = deploy_ret['state']
+    clk = deploy_ret['clk']
+
+
+    time.sleep(10)
+    #print out
+
+    ping_ret_o = h_dst.cmd('echo')
+    #print h_src.cmd('echo')
+    #print ping_ret_o
+    recv_num = ping_ret_o.strip().split('\n')[1]
+    print recv_num
+    #state_cur = clear_sb_rules(filepath, old_path, new_path, flow, state_cur, clk)
+    #state_cur.print_state()
+    #print 'path change'
+    #CLI(fat_tree_net)
+    #print "ping result:" + ping_ret
+
+    #pkt_rate = 1000
+    retpath = cwdpath + '/result/run_result_%d.txt' %proto
+    fp = open(retpath, 'a+')
+    fp.write('idx: %d pkt_rate: %d sent_num: %d recv_num: %s\n' %(nt, pkt_rate, sent_num, recv_num))
+    fp.close()
+
+    #CLI(fat_tree_net)
+
+    return 'True'
 
 
 
@@ -1682,7 +1858,7 @@ def measure_time(K, old_path, new_path, flow, state_cur, prt, in_port, out_port,
 
 if __name__ == '__main__':
     #filepath = "/home/shengliu/Workspace/mininet/haha/cmd_test.sh"
-    K = 8
+    K = 4
     state_cur = net()
     state_next = net()
 
@@ -1720,22 +1896,26 @@ if __name__ == '__main__':
     out_port_new = out_port_construct(new_path, path_list['new_path'][12]['out_port'])
     in_port_new = out_port_construct(new_path, path_list['new_path'][12]['in_port'])
 
-    #rule_set = rule_construct([], old_path, flow, state_cur, priority, out_port, clk)
-    #state_update(rule_set, state_next, clk)
-    #setTMP([], old_path, flow, state_cur, state_next, rule_set, clk)
-    #state_update(rule_set, state_cur, clk)
+
+    #rule_set = rule_construct(old_path, new_path, flow, state_cur, prt, out_port_old, out_port_new, clk)
+    #rule_set = rule_construct(old_path, new_path, flow, state_cur, prt, out_port_new, clk)
+    #state_next = state_update(rule_set, state_cur)
+
+    #rule_set = setTMP(old_path, new_path, flow, state_next, rule_set, clk, in_port_old)
+    #rule_set = setTMP(old_path, new_path, flow, state_cur, state_next, rule_set, clk, in_port_old)
+    #state_next = state_update(rule_set, state_cur)
     #state_next.copy_state(state_cur)
     print in_port_old
     print out_port_old
 
 
-    ret = measure_time(K, [], old_path, flow, state_cur, priority, {}, out_port_old, clk)
-    state_cur = ret['state']
-    clk = ret['clk']
+    #ret = measure_time(K, [], old_path, flow, state_cur, priority, {}, out_port_old, clk)
+    #state_cur = ret['state']
+    #clk = ret['clk']
 
-    ret = measure_time(K, old_path, new_path, flow, state_cur, priority, in_port_old, out_port_new, clk)
-    state_cur = ret['state']
-    clk = ret['clk']
+    #ret = measure_time(K, old_path, new_path, flow, state_cur, priority, in_port_old, out_port_new, clk)
+    #state_cur = ret['state']
+    #clk = ret['clk']
 
     # ret = path_deploy_coco(K, p4info_helper, [], old_path, flow, state_cur, priority, in_port_old, out_port_old, clk, 1)
     # #ret = path_deploy_cu(K, p4info_helper, [], old_path, flow, state_cur, priority, in_port_old, out_port_old, clk, 1)
@@ -1755,9 +1935,9 @@ if __name__ == '__main__':
     # #ret = path_deploy_coco(K, p4info_helper, old_path, new_path, flow, state_cur, priority, in_port_new, out_port_new, clk, 1)
     # #ret = path_deploy_cu(K, p4info_helper, old_path, new_path, flow, state_cur, priority, in_port_new, out_port_new, clk, 1)
     # #ret = path_deploy_normal(K, p4info_helper, old_path, new_path, flow, state_cur, priority, in_port_new, out_port_new, clk, 1)
-    # # ret = path_deploy(K, p4info_helper, old_path, new_path, flow, state_cur, priority, in_port_old, out_port_old, in_port_new, out_port_new, clk, 1)
-    # state_cur = ret['state']
-    # state_cur.print_state()
+    ret = path_deploy(K, p4info_helper, old_path, new_path, flow, state_cur, priority, in_port_old, out_port_old, in_port_new, out_port_new, clk, 1)
+    state_cur = ret['state']
+    state_cur.print_state()
     # clk = ret['clk']
     #
     # # time.sleep(2)
